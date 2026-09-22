@@ -1,0 +1,10 @@
+{
+  "source": "data/raw/明朝帝王世系&官职品级.xlsx",
+  "generatedAt": "2026-09-22T07:58:07.579Z",
+  "counts": {
+    "emperors": 21,
+    "princes": 107,
+    "relations": 132,
+    "posts": 548
+  }
+}

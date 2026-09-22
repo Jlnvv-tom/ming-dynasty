@@ -1,0 +1,149 @@
+[
+  {
+    "key": "超品",
+    "label": "超品",
+    "level": 0,
+    "secondary": false,
+    "sort": 0
+  },
+  {
+    "key": "zheng-1",
+    "label": "正一品",
+    "level": 1,
+    "secondary": false,
+    "sort": 10
+  },
+  {
+    "key": "cong-1",
+    "label": "从一品",
+    "level": 1,
+    "secondary": true,
+    "sort": 15
+  },
+  {
+    "key": "zheng-2",
+    "label": "正二品",
+    "level": 2,
+    "secondary": false,
+    "sort": 20
+  },
+  {
+    "key": "cong-2",
+    "label": "从二品",
+    "level": 2,
+    "secondary": true,
+    "sort": 25
+  },
+  {
+    "key": "zheng-3",
+    "label": "正三品",
+    "level": 3,
+    "secondary": false,
+    "sort": 30
+  },
+  {
+    "key": "cong-3",
+    "label": "从三品",
+    "level": 3,
+    "secondary": true,
+    "sort": 35
+  },
+  {
+    "key": "zheng-4",
+    "label": "正四品",
+    "level": 4,
+    "secondary": false,
+    "sort": 40
+  },
+  {
+    "key": "cong-4",
+    "label": "从四品",
+    "level": 4,
+    "secondary": true,
+    "sort": 45
+  },
+  {
+    "key": "zheng-5",
+    "label": "正五品",
+    "level": 5,
+    "secondary": false,
+    "sort": 50
+  },
+  {
+    "key": "cong-5",
+    "label": "从五品",
+    "level": 5,
+    "secondary": true,
+    "sort": 55
+  },
+  {
+    "key": "zheng-6",
+    "label": "正六品",
+    "level": 6,
+    "secondary": false,
+    "sort": 60
+  },
+  {
+    "key": "cong-6",
+    "label": "从六品",
+    "level": 6,
+    "secondary": true,
+    "sort": 65
+  },
+  {
+    "key": "zheng-7",
+    "label": "正七品",
+    "level": 7,
+    "secondary": false,
+    "sort": 70
+  },
+  {
+    "key": "cong-7",
+    "label": "从七品",
+    "level": 7,
+    "secondary": true,
+    "sort": 75
+  },
+  {
+    "key": "zheng-8",
+    "label": "正八品",
+    "level": 8,
+    "secondary": false,
+    "sort": 80
+  },
+  {
+    "key": "cong-8",
+    "label": "从八品",
+    "level": 8,
+    "secondary": true,
+    "sort": 85
+  },
+  {
+    "key": "zheng-9",
+    "label": "正九品",
+    "level": 9,
+    "secondary": false,
+    "sort": 90
+  },
+  {
+    "key": "cong-9",
+    "label": "从九品",
+    "level": 9,
+    "secondary": true,
+    "sort": 95
+  },
+  {
+    "key": "未入流",
+    "label": "未入流",
+    "level": 0,
+    "secondary": false,
+    "sort": 100
+  },
+  {
+    "key": "无品级",
+    "label": "无品级",
+    "level": 0,
+    "secondary": false,
+    "sort": 101
+  }
+]

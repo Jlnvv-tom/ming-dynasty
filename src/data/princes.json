@@ -1,0 +1,976 @@
+[
+  {
+    "id": "taizu-s1",
+    "emperorId": "taizu",
+    "emperorName": "太祖",
+    "order": 1,
+    "orderLabel": "长子",
+    "name": "朱标",
+    "title": "懿文太子"
+  },
+  {
+    "id": "taizu-s2",
+    "emperorId": "taizu",
+    "emperorName": "太祖",
+    "order": 2,
+    "orderLabel": "次子",
+    "name": "朱樉",
+    "title": "秦王"
+  },
+  {
+    "id": "taizu-s3",
+    "emperorId": "taizu",
+    "emperorName": "太祖",
+    "order": 3,
+    "orderLabel": "三子",
+    "name": "朱棡",
+    "title": "晋王"
+  },
+  {
+    "id": "taizu-s4",
+    "emperorId": "taizu",
+    "emperorName": "太祖",
+    "order": 4,
+    "orderLabel": "四子",
+    "name": "朱棣",
+    "title": "燕王",
+    "isEmperor": true
+  },
+  {
+    "id": "taizu-s5",
+    "emperorId": "taizu",
+    "emperorName": "太祖",
+    "order": 5,
+    "orderLabel": "五子",
+    "name": "朱橚",
+    "title": "周王"
+  },
+  {
+    "id": "taizu-s6",
+    "emperorId": "taizu",
+    "emperorName": "太祖",
+    "order": 6,
+    "orderLabel": "六子",
+    "name": "朱桢",
+    "title": "楚王"
+  },
+  {
+    "id": "taizu-s7",
+    "emperorId": "taizu",
+    "emperorName": "太祖",
+    "order": 7,
+    "orderLabel": "七子",
+    "name": "朱榑",
+    "title": "齐王"
+  },
+  {
+    "id": "taizu-s8",
+    "emperorId": "taizu",
+    "emperorName": "太祖",
+    "order": 8,
+    "orderLabel": "八子",
+    "name": "朱梓",
+    "title": "潭王"
+  },
+  {
+    "id": "taizu-s9",
+    "emperorId": "taizu",
+    "emperorName": "太祖",
+    "order": 9,
+    "orderLabel": "九子",
+    "name": "朱杞",
+    "title": "赵王"
+  },
+  {
+    "id": "taizu-s10",
+    "emperorId": "taizu",
+    "emperorName": "太祖",
+    "order": 10,
+    "orderLabel": "十子",
+    "name": "朱檀",
+    "title": "鲁王"
+  },
+  {
+    "id": "taizu-s11",
+    "emperorId": "taizu",
+    "emperorName": "太祖",
+    "order": 11,
+    "orderLabel": "十一子",
+    "name": "朱椿",
+    "title": "蜀王"
+  },
+  {
+    "id": "taizu-s12",
+    "emperorId": "taizu",
+    "emperorName": "太祖",
+    "order": 12,
+    "orderLabel": "十二子",
+    "name": "朱柏",
+    "title": "湘王"
+  },
+  {
+    "id": "taizu-s13",
+    "emperorId": "taizu",
+    "emperorName": "太祖",
+    "order": 13,
+    "orderLabel": "十三子",
+    "name": "朱桂",
+    "title": "代王"
+  },
+  {
+    "id": "taizu-s14",
+    "emperorId": "taizu",
+    "emperorName": "太祖",
+    "order": 14,
+    "orderLabel": "十四子",
+    "name": "朱楧",
+    "title": "肃王"
+  },
+  {
+    "id": "taizu-s15",
+    "emperorId": "taizu",
+    "emperorName": "太祖",
+    "order": 15,
+    "orderLabel": "十五子",
+    "name": "朱植",
+    "title": "辽王"
+  },
+  {
+    "id": "taizu-s16",
+    "emperorId": "taizu",
+    "emperorName": "太祖",
+    "order": 16,
+    "orderLabel": "十六子",
+    "name": "朱㮵",
+    "title": "庆王"
+  },
+  {
+    "id": "taizu-s17",
+    "emperorId": "taizu",
+    "emperorName": "太祖",
+    "order": 17,
+    "orderLabel": "十七子",
+    "name": "朱权",
+    "title": "宁王"
+  },
+  {
+    "id": "taizu-s18",
+    "emperorId": "taizu",
+    "emperorName": "太祖",
+    "order": 18,
+    "orderLabel": "十八子",
+    "name": "朱楩",
+    "title": "岷王"
+  },
+  {
+    "id": "taizu-s19",
+    "emperorId": "taizu",
+    "emperorName": "太祖",
+    "order": 19,
+    "orderLabel": "十九子",
+    "name": "朱橞",
+    "title": "谷王"
+  },
+  {
+    "id": "taizu-s20",
+    "emperorId": "taizu",
+    "emperorName": "太祖",
+    "order": 20,
+    "orderLabel": "二十子",
+    "name": "朱松",
+    "title": "韩王"
+  },
+  {
+    "id": "taizu-s21",
+    "emperorId": "taizu",
+    "emperorName": "太祖",
+    "order": 21,
+    "orderLabel": "二十一子",
+    "name": "朱模",
+    "title": "沈王"
+  },
+  {
+    "id": "taizu-s22",
+    "emperorId": "taizu",
+    "emperorName": "太祖",
+    "order": 22,
+    "orderLabel": "二十二子",
+    "name": "朱楹",
+    "title": "安王"
+  },
+  {
+    "id": "taizu-s23",
+    "emperorId": "taizu",
+    "emperorName": "太祖",
+    "order": 23,
+    "orderLabel": "二十三子",
+    "name": "朱桱",
+    "title": "唐王"
+  },
+  {
+    "id": "taizu-s24",
+    "emperorId": "taizu",
+    "emperorName": "太祖",
+    "order": 24,
+    "orderLabel": "二十四子",
+    "name": "朱栋",
+    "title": "郢王"
+  },
+  {
+    "id": "taizu-s25",
+    "emperorId": "taizu",
+    "emperorName": "太祖",
+    "order": 25,
+    "orderLabel": "二十五子",
+    "name": "朱木彝",
+    "title": "伊王"
+  },
+  {
+    "id": "taizu-s26",
+    "emperorId": "taizu",
+    "emperorName": "太祖",
+    "order": 26,
+    "orderLabel": "二十六子",
+    "name": "朱",
+    "title": "未封王"
+  },
+  {
+    "id": "huidi-s1",
+    "emperorId": "huidi",
+    "emperorName": "惠帝",
+    "order": 1,
+    "orderLabel": "长子",
+    "name": "朱文奎",
+    "title": "和简太子"
+  },
+  {
+    "id": "huidi-s2",
+    "emperorId": "huidi",
+    "emperorName": "惠帝",
+    "order": 2,
+    "orderLabel": "次子",
+    "name": "朱文圭",
+    "title": "润怀王"
+  },
+  {
+    "id": "chengzu-s1",
+    "emperorId": "chengzu",
+    "emperorName": "成祖",
+    "order": 1,
+    "orderLabel": "长子",
+    "name": "朱高炽",
+    "title": "太子",
+    "isEmperor": true
+  },
+  {
+    "id": "chengzu-s2",
+    "emperorId": "chengzu",
+    "emperorName": "成祖",
+    "order": 2,
+    "orderLabel": "次子",
+    "name": "朱高煦",
+    "title": "汉王"
+  },
+  {
+    "id": "chengzu-s3",
+    "emperorId": "chengzu",
+    "emperorName": "成祖",
+    "order": 3,
+    "orderLabel": "三子",
+    "name": "朱高燧",
+    "title": "赵王"
+  },
+  {
+    "id": "chengzu-s4",
+    "emperorId": "chengzu",
+    "emperorName": "成祖",
+    "order": 4,
+    "orderLabel": "四子",
+    "name": "朱高烯",
+    "title": "未封王"
+  },
+  {
+    "id": "renzong-s1",
+    "emperorId": "renzong",
+    "emperorName": "仁宗",
+    "order": 1,
+    "orderLabel": "长子",
+    "name": "朱瞻基",
+    "title": "太子",
+    "isEmperor": true
+  },
+  {
+    "id": "renzong-s2",
+    "emperorId": "renzong",
+    "emperorName": "仁宗",
+    "order": 2,
+    "orderLabel": "次子",
+    "name": "朱瞻埈",
+    "title": "郑靖王"
+  },
+  {
+    "id": "renzong-s3",
+    "emperorId": "renzong",
+    "emperorName": "仁宗",
+    "order": 3,
+    "orderLabel": "三子",
+    "name": "朱瞻墉",
+    "title": "越靖王"
+  },
+  {
+    "id": "renzong-s4",
+    "emperorId": "renzong",
+    "emperorName": "仁宗",
+    "order": 4,
+    "orderLabel": "四子",
+    "name": "朱瞻垠",
+    "title": "蕲献王"
+  },
+  {
+    "id": "renzong-s5",
+    "emperorId": "renzong",
+    "emperorName": "仁宗",
+    "order": 5,
+    "orderLabel": "五子",
+    "name": "朱瞻墡",
+    "title": "襄宪王"
+  },
+  {
+    "id": "renzong-s6",
+    "emperorId": "renzong",
+    "emperorName": "仁宗",
+    "order": 6,
+    "orderLabel": "六子",
+    "name": "朱瞻堈",
+    "title": "荆宪王"
+  },
+  {
+    "id": "renzong-s7",
+    "emperorId": "renzong",
+    "emperorName": "仁宗",
+    "order": 7,
+    "orderLabel": "七子",
+    "name": "朱瞻墺",
+    "title": "淮靖王"
+  },
+  {
+    "id": "renzong-s8",
+    "emperorId": "renzong",
+    "emperorName": "仁宗",
+    "order": 8,
+    "orderLabel": "八子",
+    "name": "朱瞻垲",
+    "title": "滕淮王"
+  },
+  {
+    "id": "renzong-s9",
+    "emperorId": "renzong",
+    "emperorName": "仁宗",
+    "order": 9,
+    "orderLabel": "九子",
+    "name": "朱瞻垍",
+    "title": "梁庄王"
+  },
+  {
+    "id": "renzong-s10",
+    "emperorId": "renzong",
+    "emperorName": "仁宗",
+    "order": 10,
+    "orderLabel": "十子",
+    "name": "朱膽埏",
+    "title": "卫恭王"
+  },
+  {
+    "id": "xuanzong-s1",
+    "emperorId": "xuanzong",
+    "emperorName": "宣宗",
+    "order": 1,
+    "orderLabel": "长子",
+    "name": "朱祁镇",
+    "title": "太子",
+    "isEmperor": true
+  },
+  {
+    "id": "xuanzong-s2",
+    "emperorId": "xuanzong",
+    "emperorName": "宣宗",
+    "order": 2,
+    "orderLabel": "次子",
+    "name": "朱祁钰",
+    "title": "郕王",
+    "isEmperor": true
+  },
+  {
+    "id": "yingzong-s1",
+    "emperorId": "yingzong",
+    "emperorName": "英宗",
+    "order": 1,
+    "orderLabel": "长子",
+    "name": "朱见深",
+    "title": "太子",
+    "isEmperor": true
+  },
+  {
+    "id": "yingzong-s2",
+    "emperorId": "yingzong",
+    "emperorName": "英宗",
+    "order": 2,
+    "orderLabel": "次子",
+    "name": "朱见瀵",
+    "title": "德庄王"
+  },
+  {
+    "id": "yingzong-s3",
+    "emperorId": "yingzong",
+    "emperorName": "英宗",
+    "order": 3,
+    "orderLabel": "三子",
+    "name": "朱见湜",
+    "note": "早夭"
+  },
+  {
+    "id": "yingzong-s4",
+    "emperorId": "yingzong",
+    "emperorName": "英宗",
+    "order": 4,
+    "orderLabel": "四子",
+    "name": "朱见淳",
+    "title": "许悼王"
+  },
+  {
+    "id": "yingzong-s5",
+    "emperorId": "yingzong",
+    "emperorName": "英宗",
+    "order": 5,
+    "orderLabel": "五子",
+    "name": "朱见澍",
+    "title": "秀怀王"
+  },
+  {
+    "id": "yingzong-s6",
+    "emperorId": "yingzong",
+    "emperorName": "英宗",
+    "order": 6,
+    "orderLabel": "六子",
+    "name": "朱见泽",
+    "title": "崇简王"
+  },
+  {
+    "id": "yingzong-s7",
+    "emperorId": "yingzong",
+    "emperorName": "英宗",
+    "order": 7,
+    "orderLabel": "七子",
+    "name": "朱见浚",
+    "title": "吉简王"
+  },
+  {
+    "id": "yingzong-s8",
+    "emperorId": "yingzong",
+    "emperorName": "英宗",
+    "order": 8,
+    "orderLabel": "八子",
+    "name": "朱见治",
+    "title": "忻穆王"
+  },
+  {
+    "id": "yingzong-s9",
+    "emperorId": "yingzong",
+    "emperorName": "英宗",
+    "order": 9,
+    "orderLabel": "九子",
+    "name": "朱见沛",
+    "title": "徽庄王"
+  },
+  {
+    "id": "daizong-s3",
+    "emperorId": "daizong",
+    "emperorName": "代宗",
+    "order": 3,
+    "orderLabel": "世子",
+    "name": "朱见济",
+    "title": "郕王世子"
+  },
+  {
+    "id": "xianzong-s1",
+    "emperorId": "xianzong",
+    "emperorName": "宪宗",
+    "order": 1,
+    "orderLabel": "长子",
+    "name": "",
+    "note": "早夭"
+  },
+  {
+    "id": "xianzong-s2",
+    "emperorId": "xianzong",
+    "emperorName": "宪宗",
+    "order": 2,
+    "orderLabel": "次子",
+    "name": "朱祐极",
+    "title": "悼恭太子"
+  },
+  {
+    "id": "xianzong-s3",
+    "emperorId": "xianzong",
+    "emperorName": "宪宗",
+    "order": 3,
+    "orderLabel": "三子",
+    "name": "朱祐樘",
+    "title": "太子"
+  },
+  {
+    "id": "xianzong-s4",
+    "emperorId": "xianzong",
+    "emperorName": "宪宗",
+    "order": 4,
+    "orderLabel": "四子",
+    "name": "朱祐杬",
+    "title": "兴献王"
+  },
+  {
+    "id": "xianzong-s5",
+    "emperorId": "xianzong",
+    "emperorName": "宪宗",
+    "order": 5,
+    "orderLabel": "五子",
+    "name": "朱祐榆",
+    "title": "岐惠王"
+  },
+  {
+    "id": "xianzong-s6",
+    "emperorId": "xianzong",
+    "emperorName": "宪宗",
+    "order": 6,
+    "orderLabel": "六子",
+    "name": "朱祐槟",
+    "title": "益端王"
+  },
+  {
+    "id": "xianzong-s7",
+    "emperorId": "xianzong",
+    "emperorName": "宪宗",
+    "order": 7,
+    "orderLabel": "七子",
+    "name": "朱祐輝",
+    "title": "衡恭王"
+  },
+  {
+    "id": "xianzong-s8",
+    "emperorId": "xianzong",
+    "emperorName": "宪宗",
+    "order": 8,
+    "orderLabel": "八子",
+    "name": "朱祐坛",
+    "title": "雍靖王"
+  },
+  {
+    "id": "xianzong-s9",
+    "emperorId": "xianzong",
+    "emperorName": "宪宗",
+    "order": 9,
+    "orderLabel": "九子",
+    "name": "朱祐槽",
+    "title": "寿定王"
+  },
+  {
+    "id": "xianzong-s10",
+    "emperorId": "xianzong",
+    "emperorName": "宪宗",
+    "order": 10,
+    "orderLabel": "十子",
+    "name": "",
+    "note": "早夭"
+  },
+  {
+    "id": "xianzong-s11",
+    "emperorId": "xianzong",
+    "emperorName": "宪宗",
+    "order": 11,
+    "orderLabel": "十一子",
+    "name": "朱祐",
+    "title": "汝安王"
+  },
+  {
+    "id": "xianzong-s12",
+    "emperorId": "xianzong",
+    "emperorName": "宪宗",
+    "order": 12,
+    "orderLabel": "十二子",
+    "name": "朱祐瞬",
+    "title": "泾简王"
+  },
+  {
+    "id": "xianzong-s13",
+    "emperorId": "xianzong",
+    "emperorName": "宪宗",
+    "order": 13,
+    "orderLabel": "十三子",
+    "name": "朱祐枢",
+    "title": "荣庄王"
+  },
+  {
+    "id": "xianzong-s14",
+    "emperorId": "xianzong",
+    "emperorName": "宪宗",
+    "order": 14,
+    "orderLabel": "十四子",
+    "name": "朱祐楷",
+    "title": "申懿王"
+  },
+  {
+    "id": "xiaozong-s1",
+    "emperorId": "xiaozong",
+    "emperorName": "孝宗",
+    "order": 1,
+    "orderLabel": "长子",
+    "name": "朱厚照",
+    "title": "太子",
+    "isEmperor": true
+  },
+  {
+    "id": "xiaozong-s2",
+    "emperorId": "xiaozong",
+    "emperorName": "孝宗",
+    "order": 2,
+    "orderLabel": "次子",
+    "name": "朱厚炜",
+    "note": "早夭"
+  },
+  {
+    "id": "shizong-s1",
+    "emperorId": "shizong",
+    "emperorName": "世宗",
+    "order": 1,
+    "orderLabel": "长子",
+    "name": "朱载基",
+    "title": "哀冲太子"
+  },
+  {
+    "id": "shizong-s2",
+    "emperorId": "shizong",
+    "emperorName": "世宗",
+    "order": 2,
+    "orderLabel": "二子",
+    "name": "朱载壡",
+    "title": "庄敬太子"
+  },
+  {
+    "id": "shizong-s3",
+    "emperorId": "shizong",
+    "emperorName": "世宗",
+    "order": 3,
+    "orderLabel": "三子",
+    "name": "朱载垕",
+    "title": "裕王、太子",
+    "isEmperor": true
+  },
+  {
+    "id": "shizong-s4",
+    "emperorId": "shizong",
+    "emperorName": "世宗",
+    "order": 4,
+    "orderLabel": "四子",
+    "name": "朱载圳",
+    "title": "景恭王"
+  },
+  {
+    "id": "shizong-s5",
+    "emperorId": "shizong",
+    "emperorName": "世宗",
+    "order": 5,
+    "orderLabel": "五子",
+    "name": "",
+    "note": "早夭"
+  },
+  {
+    "id": "shizong-s6",
+    "emperorId": "shizong",
+    "emperorName": "世宗",
+    "order": 6,
+    "orderLabel": "六子",
+    "name": "朱载<憂斗土>戚怀王"
+  },
+  {
+    "id": "shizong-s7",
+    "emperorId": "shizong",
+    "emperorName": "世宗",
+    "order": 7,
+    "orderLabel": "七子",
+    "name": "朱载壇",
+    "title": "蓟哀王"
+  },
+  {
+    "id": "shizong-s8",
+    "emperorId": "shizong",
+    "emperorName": "世宗",
+    "order": 8,
+    "orderLabel": "八子",
+    "name": "朱载<土夙>均思王"
+  },
+  {
+    "id": "muzong-s1",
+    "emperorId": "muzong",
+    "emperorName": "穆宗",
+    "order": 1,
+    "orderLabel": "长子",
+    "name": "朱翊武",
+    "title": "宪怀太子"
+  },
+  {
+    "id": "muzong-s2",
+    "emperorId": "muzong",
+    "emperorName": "穆宗",
+    "order": 2,
+    "orderLabel": "二子",
+    "name": "朱翊铃",
+    "note": "早夭"
+  },
+  {
+    "id": "muzong-s3",
+    "emperorId": "muzong",
+    "emperorName": "穆宗",
+    "order": 3,
+    "orderLabel": "三子",
+    "name": "朱翊钧",
+    "title": "太子",
+    "isEmperor": true
+  },
+  {
+    "id": "muzong-s4",
+    "emperorId": "muzong",
+    "emperorName": "穆宗",
+    "order": 4,
+    "orderLabel": "四子",
+    "name": "朱翊缪",
+    "title": "潞简王"
+  },
+  {
+    "id": "shenzong-s1",
+    "emperorId": "shenzong",
+    "emperorName": "神宗",
+    "order": 1,
+    "orderLabel": "长子",
+    "name": "朱常洛",
+    "title": "太子",
+    "isEmperor": true
+  },
+  {
+    "id": "shenzong-s2",
+    "emperorId": "shenzong",
+    "emperorName": "神宗",
+    "order": 2,
+    "orderLabel": "次子",
+    "name": "朱常溆",
+    "title": "邠哀王"
+  },
+  {
+    "id": "shenzong-s3",
+    "emperorId": "shenzong",
+    "emperorName": "神宗",
+    "order": 3,
+    "orderLabel": "三子",
+    "name": "朱常洵",
+    "title": "福忠王"
+  },
+  {
+    "id": "shenzong-s4",
+    "emperorId": "shenzong",
+    "emperorName": "神宗",
+    "order": 4,
+    "orderLabel": "四子",
+    "name": "朱常治",
+    "note": "早夭"
+  },
+  {
+    "id": "shenzong-s5",
+    "emperorId": "shenzong",
+    "emperorName": "神宗",
+    "order": 5,
+    "orderLabel": "五子",
+    "name": "朱常浩",
+    "title": "瑞王"
+  },
+  {
+    "id": "shenzong-s6",
+    "emperorId": "shenzong",
+    "emperorName": "神宗",
+    "order": 6,
+    "orderLabel": "六子",
+    "name": "朱常润",
+    "title": "惠王"
+  },
+  {
+    "id": "shenzong-s7",
+    "emperorId": "shenzong",
+    "emperorName": "神宗",
+    "order": 7,
+    "orderLabel": "七子",
+    "name": "朱常瀛",
+    "title": "桂端王"
+  },
+  {
+    "id": "shenzong-s8",
+    "emperorId": "shenzong",
+    "emperorName": "神宗",
+    "order": 8,
+    "orderLabel": "八子",
+    "name": "朱常溥",
+    "note": "早夭"
+  },
+  {
+    "id": "guangzong-s1",
+    "emperorId": "guangzong",
+    "emperorName": "光宗",
+    "order": 1,
+    "orderLabel": "长子",
+    "name": "朱由校",
+    "title": "太子",
+    "isEmperor": true
+  },
+  {
+    "id": "guangzong-s2",
+    "emperorId": "guangzong",
+    "emperorName": "光宗",
+    "order": 2,
+    "orderLabel": "次子",
+    "name": "朱由㰒",
+    "title": "简怀王"
+  },
+  {
+    "id": "guangzong-s3",
+    "emperorId": "guangzong",
+    "emperorName": "光宗",
+    "order": 3,
+    "orderLabel": "三子",
+    "name": "朱由楫",
+    "title": "齐思王"
+  },
+  {
+    "id": "guangzong-s4",
+    "emperorId": "guangzong",
+    "emperorName": "光宗",
+    "order": 4,
+    "orderLabel": "四子",
+    "name": "朱由模",
+    "note": "早夭"
+  },
+  {
+    "id": "guangzong-s5",
+    "emperorId": "guangzong",
+    "emperorName": "光宗",
+    "order": 5,
+    "orderLabel": "五子",
+    "name": "朱由检",
+    "title": "信王",
+    "isEmperor": true
+  },
+  {
+    "id": "guangzong-s6",
+    "emperorId": "guangzong",
+    "emperorName": "光宗",
+    "order": 6,
+    "orderLabel": "六子",
+    "name": "朱由栩",
+    "title": "湘怀王"
+  },
+  {
+    "id": "guangzong-s7",
+    "emperorId": "guangzong",
+    "emperorName": "光宗",
+    "order": 7,
+    "orderLabel": "七子",
+    "name": "朱由橏",
+    "title": "惠昭王"
+  },
+  {
+    "id": "xizong-s1",
+    "emperorId": "xizong",
+    "emperorName": "熹宗",
+    "order": 1,
+    "orderLabel": "长子",
+    "name": "朱慈燃",
+    "note": "早夭"
+  },
+  {
+    "id": "xizong-s2",
+    "emperorId": "xizong",
+    "emperorName": "熹宗",
+    "order": 2,
+    "orderLabel": "次子",
+    "name": "朱慈",
+    "note": "早夭"
+  },
+  {
+    "id": "xizong-s3",
+    "emperorId": "xizong",
+    "emperorName": "熹宗",
+    "order": 3,
+    "orderLabel": "三子",
+    "name": "朱慈炅",
+    "note": "早夭"
+  },
+  {
+    "id": "sizong-s1",
+    "emperorId": "sizong",
+    "emperorName": "思宗",
+    "order": 1,
+    "orderLabel": "长子",
+    "name": "朱慈烺",
+    "title": "献感太子"
+  },
+  {
+    "id": "sizong-s2",
+    "emperorId": "sizong",
+    "emperorName": "思宗",
+    "order": 2,
+    "orderLabel": "次子",
+    "name": "朱慈垣",
+    "title": "怀隐王"
+  },
+  {
+    "id": "sizong-s3",
+    "emperorId": "sizong",
+    "emperorName": "思宗",
+    "order": 3,
+    "orderLabel": "三子",
+    "name": "朱慈炯",
+    "title": "定哀王"
+  },
+  {
+    "id": "sizong-s4",
+    "emperorId": "sizong",
+    "emperorName": "思宗",
+    "order": 4,
+    "orderLabel": "四子",
+    "name": "朱慈照",
+    "title": "永悼王"
+  },
+  {
+    "id": "sizong-s5",
+    "emperorId": "sizong",
+    "emperorName": "思宗",
+    "order": 5,
+    "orderLabel": "五子",
+    "name": "朱慈焕",
+    "title": "悼灵王"
+  },
+  {
+    "id": "sizong-s6",
+    "emperorId": "sizong",
+    "emperorName": "思宗",
+    "order": 6,
+    "orderLabel": "六子",
+    "name": "朱慈灿",
+    "title": "悼怀王"
+  },
+  {
+    "id": "sizong-s7",
+    "emperorId": "sizong",
+    "emperorName": "思宗",
+    "order": 7,
+    "orderLabel": "七子",
+    "name": "",
+    "title": "悼良王",
+    "note": "早夭"
+  }
+]

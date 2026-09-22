@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  .dark {
+    color-scheme: dark;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    @apply bg-paper text-ink font-sans antialiased;
+    background-image:
+      radial-gradient(circle at 12% 8%, rgba(200, 164, 92, 0.16), transparent 45%),
+      radial-gradient(circle at 88% 4%, rgba(158, 43, 37, 0.08), transparent 40%),
+      radial-gradient(circle at 50% 100%, rgba(46, 74, 98, 0.08), transparent 55%);
+    background-attachment: fixed;
+  }
+
+  .dark body {
+    @apply bg-night text-[#EDE6D8];
+    background-image:
+      radial-gradient(circle at 12% 8%, rgba(200, 164, 92, 0.12), transparent 45%),
+      radial-gradient(circle at 88% 4%, rgba(196, 68, 60, 0.12), transparent 42%),
+      radial-gradient(circle at 50% 100%, rgba(62, 107, 158, 0.14), transparent 55%);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-serif tracking-wide;
+  }
+
+  ::selection {
+    @apply bg-vermilion/20;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply rounded-full bg-ink/20 dark:bg-white/15;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+}
+
+@layer components {
+  /* 宣纸卡片：细描金边 + 极淡投影 */
+  .surface {
+    @apply rounded-2xl border border-gold/25 bg-paper-soft/70 shadow-card backdrop-blur-sm
+      dark:border-white/10 dark:bg-night-soft/70;
+  }
+
+  .surface-hover {
+    @apply transition-all duration-300 hover:-translate-y-0.5 hover:border-vermilion/40 hover:shadow-card-hover;
+  }
+
+  .hairline {
+    @apply border-ink/10 dark:border-white/10;
+  }
+
+  .chip {
+    @apply inline-flex items-center gap-1 rounded-full border border-ink/15 px-2.5 py-0.5 text-xs
+      text-ink-soft dark:border-white/15 dark:text-white/70;
+  }
+
+  .chip-active {
+    @apply border-vermilion/50 bg-vermilion/10 text-vermilion dark:border-vermilion-light/60 dark:text-vermilion-soft;
+  }
+
+  .seal {
+    @apply inline-flex h-8 w-8 items-center justify-center rounded-md bg-vermilion font-serif text-sm
+      text-paper-soft shadow-sm dark:bg-vermilion-light;
+  }
+
+  .label-key {
+    @apply text-xs uppercase tracking-[0.2em] text-ink-faint dark:text-white/50;
+  }
+
+  .gold-rule {
+    @apply h-px w-full bg-gradient-to-r from-transparent via-gold/50 to-transparent;
+  }
+}

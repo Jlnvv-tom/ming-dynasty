@@ -1,0 +1,926 @@
+[
+  {
+    "id": "r-succ-1",
+    "source": "taizu",
+    "target": "huidi",
+    "type": "grandparent",
+    "label": "孙承祖位"
+  },
+  {
+    "id": "r-succ-2",
+    "source": "huidi",
+    "target": "chengzu",
+    "type": "uncle_nephew",
+    "label": "叔夺侄位·靖难"
+  },
+  {
+    "id": "r-succ-3",
+    "source": "chengzu",
+    "target": "renzong",
+    "type": "father_son",
+    "label": "父子相承"
+  },
+  {
+    "id": "r-succ-4",
+    "source": "renzong",
+    "target": "xuanzong",
+    "type": "father_son",
+    "label": "父子相承"
+  },
+  {
+    "id": "r-succ-5",
+    "source": "xuanzong",
+    "target": "yingzong",
+    "type": "father_son",
+    "label": "父子相承"
+  },
+  {
+    "id": "r-succ-6",
+    "source": "yingzong",
+    "target": "daizong",
+    "type": "brother",
+    "label": "兄终弟及·土木之变"
+  },
+  {
+    "id": "r-succ-7",
+    "source": "daizong",
+    "target": "yingzong",
+    "type": "restoration",
+    "label": "夺门之变·复辟"
+  },
+  {
+    "id": "r-succ-8",
+    "source": "yingzong",
+    "target": "xianzong",
+    "type": "father_son",
+    "label": "父子相承"
+  },
+  {
+    "id": "r-succ-9",
+    "source": "xianzong",
+    "target": "xiaozong",
+    "type": "father_son",
+    "label": "父子相承"
+  },
+  {
+    "id": "r-succ-10",
+    "source": "xiaozong",
+    "target": "wuzong",
+    "type": "father_son",
+    "label": "父子相承"
+  },
+  {
+    "id": "r-succ-11",
+    "source": "wuzong",
+    "target": "shizong",
+    "type": "cousin",
+    "label": "堂兄弟·藩王入继"
+  },
+  {
+    "id": "r-succ-12",
+    "source": "shizong",
+    "target": "muzong",
+    "type": "father_son",
+    "label": "父子相承"
+  },
+  {
+    "id": "r-succ-13",
+    "source": "muzong",
+    "target": "shenzong",
+    "type": "father_son",
+    "label": "父子相承"
+  },
+  {
+    "id": "r-succ-14",
+    "source": "shenzong",
+    "target": "guangzong",
+    "type": "father_son",
+    "label": "父子相承"
+  },
+  {
+    "id": "r-succ-15",
+    "source": "guangzong",
+    "target": "xizong",
+    "type": "father_son",
+    "label": "父子相承"
+  },
+  {
+    "id": "r-succ-16",
+    "source": "xizong",
+    "target": "sizong",
+    "type": "brother",
+    "label": "兄终弟及"
+  },
+  {
+    "id": "r-succ-17",
+    "source": "sizong",
+    "target": "anzong",
+    "type": "cousin",
+    "label": "堂兄弟·南明"
+  },
+  {
+    "id": "r-succ-18",
+    "source": "anzong",
+    "target": "shaozong",
+    "type": "clan",
+    "label": "宗室相继·南明"
+  },
+  {
+    "id": "r-succ-19",
+    "source": "shaozong",
+    "target": "wenzong",
+    "type": "brother",
+    "label": "兄弟相继·南明"
+  },
+  {
+    "id": "r-succ-20",
+    "source": "wenzong",
+    "target": "jingzong",
+    "type": "clan",
+    "label": "宗室相继·南明"
+  },
+  {
+    "id": "r-succ-21",
+    "source": "jingzong",
+    "target": "zhaozong",
+    "type": "clan",
+    "label": "宗室相继·南明"
+  },
+  {
+    "id": "r-fs-taizu-s1",
+    "source": "taizu",
+    "target": "taizu-s1",
+    "type": "father_son",
+    "label": "懿文太子"
+  },
+  {
+    "id": "r-fs-taizu-s2",
+    "source": "taizu",
+    "target": "taizu-s2",
+    "type": "father_son",
+    "label": "秦王"
+  },
+  {
+    "id": "r-fs-taizu-s3",
+    "source": "taizu",
+    "target": "taizu-s3",
+    "type": "father_son",
+    "label": "晋王"
+  },
+  {
+    "id": "r-fs-taizu-s4",
+    "source": "taizu",
+    "target": "chengzu",
+    "type": "father_son",
+    "label": "燕王"
+  },
+  {
+    "id": "r-fs-taizu-s5",
+    "source": "taizu",
+    "target": "taizu-s5",
+    "type": "father_son",
+    "label": "周王"
+  },
+  {
+    "id": "r-fs-taizu-s6",
+    "source": "taizu",
+    "target": "taizu-s6",
+    "type": "father_son",
+    "label": "楚王"
+  },
+  {
+    "id": "r-fs-taizu-s7",
+    "source": "taizu",
+    "target": "taizu-s7",
+    "type": "father_son",
+    "label": "齐王"
+  },
+  {
+    "id": "r-fs-taizu-s8",
+    "source": "taizu",
+    "target": "taizu-s8",
+    "type": "father_son",
+    "label": "潭王"
+  },
+  {
+    "id": "r-fs-taizu-s9",
+    "source": "taizu",
+    "target": "taizu-s9",
+    "type": "father_son",
+    "label": "赵王"
+  },
+  {
+    "id": "r-fs-taizu-s10",
+    "source": "taizu",
+    "target": "taizu-s10",
+    "type": "father_son",
+    "label": "鲁王"
+  },
+  {
+    "id": "r-fs-taizu-s11",
+    "source": "taizu",
+    "target": "taizu-s11",
+    "type": "father_son",
+    "label": "蜀王"
+  },
+  {
+    "id": "r-fs-taizu-s12",
+    "source": "taizu",
+    "target": "taizu-s12",
+    "type": "father_son",
+    "label": "湘王"
+  },
+  {
+    "id": "r-fs-taizu-s13",
+    "source": "taizu",
+    "target": "taizu-s13",
+    "type": "father_son",
+    "label": "代王"
+  },
+  {
+    "id": "r-fs-taizu-s14",
+    "source": "taizu",
+    "target": "taizu-s14",
+    "type": "father_son",
+    "label": "肃王"
+  },
+  {
+    "id": "r-fs-taizu-s15",
+    "source": "taizu",
+    "target": "taizu-s15",
+    "type": "father_son",
+    "label": "辽王"
+  },
+  {
+    "id": "r-fs-taizu-s16",
+    "source": "taizu",
+    "target": "taizu-s16",
+    "type": "father_son",
+    "label": "庆王"
+  },
+  {
+    "id": "r-fs-taizu-s17",
+    "source": "taizu",
+    "target": "taizu-s17",
+    "type": "father_son",
+    "label": "宁王"
+  },
+  {
+    "id": "r-fs-taizu-s18",
+    "source": "taizu",
+    "target": "taizu-s18",
+    "type": "father_son",
+    "label": "岷王"
+  },
+  {
+    "id": "r-fs-taizu-s19",
+    "source": "taizu",
+    "target": "taizu-s19",
+    "type": "father_son",
+    "label": "谷王"
+  },
+  {
+    "id": "r-fs-taizu-s20",
+    "source": "taizu",
+    "target": "taizu-s20",
+    "type": "father_son",
+    "label": "韩王"
+  },
+  {
+    "id": "r-fs-taizu-s21",
+    "source": "taizu",
+    "target": "taizu-s21",
+    "type": "father_son",
+    "label": "沈王"
+  },
+  {
+    "id": "r-fs-taizu-s22",
+    "source": "taizu",
+    "target": "taizu-s22",
+    "type": "father_son",
+    "label": "安王"
+  },
+  {
+    "id": "r-fs-taizu-s23",
+    "source": "taizu",
+    "target": "taizu-s23",
+    "type": "father_son",
+    "label": "唐王"
+  },
+  {
+    "id": "r-fs-taizu-s24",
+    "source": "taizu",
+    "target": "taizu-s24",
+    "type": "father_son",
+    "label": "郢王"
+  },
+  {
+    "id": "r-fs-taizu-s25",
+    "source": "taizu",
+    "target": "taizu-s25",
+    "type": "father_son",
+    "label": "伊王"
+  },
+  {
+    "id": "r-fs-taizu-s26",
+    "source": "taizu",
+    "target": "taizu-s26",
+    "type": "father_son",
+    "label": "未封王"
+  },
+  {
+    "id": "r-fs-huidi-s1",
+    "source": "huidi",
+    "target": "huidi-s1",
+    "type": "father_son",
+    "label": "和简太子"
+  },
+  {
+    "id": "r-fs-huidi-s2",
+    "source": "huidi",
+    "target": "huidi-s2",
+    "type": "father_son",
+    "label": "润怀王"
+  },
+  {
+    "id": "r-fs-chengzu-s1",
+    "source": "chengzu",
+    "target": "renzong",
+    "type": "father_son",
+    "label": "太子"
+  },
+  {
+    "id": "r-fs-chengzu-s2",
+    "source": "chengzu",
+    "target": "chengzu-s2",
+    "type": "father_son",
+    "label": "汉王"
+  },
+  {
+    "id": "r-fs-chengzu-s3",
+    "source": "chengzu",
+    "target": "chengzu-s3",
+    "type": "father_son",
+    "label": "赵王"
+  },
+  {
+    "id": "r-fs-chengzu-s4",
+    "source": "chengzu",
+    "target": "chengzu-s4",
+    "type": "father_son",
+    "label": "未封王"
+  },
+  {
+    "id": "r-fs-renzong-s1",
+    "source": "renzong",
+    "target": "xuanzong",
+    "type": "father_son",
+    "label": "太子"
+  },
+  {
+    "id": "r-fs-renzong-s2",
+    "source": "renzong",
+    "target": "renzong-s2",
+    "type": "father_son",
+    "label": "郑靖王"
+  },
+  {
+    "id": "r-fs-renzong-s3",
+    "source": "renzong",
+    "target": "renzong-s3",
+    "type": "father_son",
+    "label": "越靖王"
+  },
+  {
+    "id": "r-fs-renzong-s4",
+    "source": "renzong",
+    "target": "renzong-s4",
+    "type": "father_son",
+    "label": "蕲献王"
+  },
+  {
+    "id": "r-fs-renzong-s5",
+    "source": "renzong",
+    "target": "renzong-s5",
+    "type": "father_son",
+    "label": "襄宪王"
+  },
+  {
+    "id": "r-fs-renzong-s6",
+    "source": "renzong",
+    "target": "renzong-s6",
+    "type": "father_son",
+    "label": "荆宪王"
+  },
+  {
+    "id": "r-fs-renzong-s7",
+    "source": "renzong",
+    "target": "renzong-s7",
+    "type": "father_son",
+    "label": "淮靖王"
+  },
+  {
+    "id": "r-fs-renzong-s8",
+    "source": "renzong",
+    "target": "renzong-s8",
+    "type": "father_son",
+    "label": "滕淮王"
+  },
+  {
+    "id": "r-fs-renzong-s9",
+    "source": "renzong",
+    "target": "renzong-s9",
+    "type": "father_son",
+    "label": "梁庄王"
+  },
+  {
+    "id": "r-fs-renzong-s10",
+    "source": "renzong",
+    "target": "renzong-s10",
+    "type": "father_son",
+    "label": "卫恭王"
+  },
+  {
+    "id": "r-fs-xuanzong-s1",
+    "source": "xuanzong",
+    "target": "yingzong",
+    "type": "father_son",
+    "label": "太子"
+  },
+  {
+    "id": "r-fs-xuanzong-s2",
+    "source": "xuanzong",
+    "target": "daizong",
+    "type": "father_son",
+    "label": "郕王"
+  },
+  {
+    "id": "r-fs-yingzong-s1",
+    "source": "yingzong",
+    "target": "xianzong",
+    "type": "father_son",
+    "label": "太子"
+  },
+  {
+    "id": "r-fs-yingzong-s2",
+    "source": "yingzong",
+    "target": "yingzong-s2",
+    "type": "father_son",
+    "label": "德庄王"
+  },
+  {
+    "id": "r-fs-yingzong-s3",
+    "source": "yingzong",
+    "target": "yingzong-s3",
+    "type": "father_son",
+    "label": "三子"
+  },
+  {
+    "id": "r-fs-yingzong-s4",
+    "source": "yingzong",
+    "target": "yingzong-s4",
+    "type": "father_son",
+    "label": "许悼王"
+  },
+  {
+    "id": "r-fs-yingzong-s5",
+    "source": "yingzong",
+    "target": "yingzong-s5",
+    "type": "father_son",
+    "label": "秀怀王"
+  },
+  {
+    "id": "r-fs-yingzong-s6",
+    "source": "yingzong",
+    "target": "yingzong-s6",
+    "type": "father_son",
+    "label": "崇简王"
+  },
+  {
+    "id": "r-fs-yingzong-s7",
+    "source": "yingzong",
+    "target": "yingzong-s7",
+    "type": "father_son",
+    "label": "吉简王"
+  },
+  {
+    "id": "r-fs-yingzong-s8",
+    "source": "yingzong",
+    "target": "yingzong-s8",
+    "type": "father_son",
+    "label": "忻穆王"
+  },
+  {
+    "id": "r-fs-yingzong-s9",
+    "source": "yingzong",
+    "target": "yingzong-s9",
+    "type": "father_son",
+    "label": "徽庄王"
+  },
+  {
+    "id": "r-fs-daizong-s3",
+    "source": "daizong",
+    "target": "daizong-s3",
+    "type": "father_son",
+    "label": "郕王世子"
+  },
+  {
+    "id": "r-fs-xianzong-s1",
+    "source": "xianzong",
+    "target": "xianzong-s1",
+    "type": "father_son",
+    "label": "长子"
+  },
+  {
+    "id": "r-fs-xianzong-s2",
+    "source": "xianzong",
+    "target": "xianzong-s2",
+    "type": "father_son",
+    "label": "悼恭太子"
+  },
+  {
+    "id": "r-fs-xianzong-s3",
+    "source": "xianzong",
+    "target": "xianzong-s3",
+    "type": "father_son",
+    "label": "太子"
+  },
+  {
+    "id": "r-fs-xianzong-s4",
+    "source": "xianzong",
+    "target": "xianzong-s4",
+    "type": "father_son",
+    "label": "兴献王"
+  },
+  {
+    "id": "r-fs-xianzong-s5",
+    "source": "xianzong",
+    "target": "xianzong-s5",
+    "type": "father_son",
+    "label": "岐惠王"
+  },
+  {
+    "id": "r-fs-xianzong-s6",
+    "source": "xianzong",
+    "target": "xianzong-s6",
+    "type": "father_son",
+    "label": "益端王"
+  },
+  {
+    "id": "r-fs-xianzong-s7",
+    "source": "xianzong",
+    "target": "xianzong-s7",
+    "type": "father_son",
+    "label": "衡恭王"
+  },
+  {
+    "id": "r-fs-xianzong-s8",
+    "source": "xianzong",
+    "target": "xianzong-s8",
+    "type": "father_son",
+    "label": "雍靖王"
+  },
+  {
+    "id": "r-fs-xianzong-s9",
+    "source": "xianzong",
+    "target": "xianzong-s9",
+    "type": "father_son",
+    "label": "寿定王"
+  },
+  {
+    "id": "r-fs-xianzong-s10",
+    "source": "xianzong",
+    "target": "xianzong-s10",
+    "type": "father_son",
+    "label": "十子"
+  },
+  {
+    "id": "r-fs-xianzong-s11",
+    "source": "xianzong",
+    "target": "xianzong-s11",
+    "type": "father_son",
+    "label": "汝安王"
+  },
+  {
+    "id": "r-fs-xianzong-s12",
+    "source": "xianzong",
+    "target": "xianzong-s12",
+    "type": "father_son",
+    "label": "泾简王"
+  },
+  {
+    "id": "r-fs-xianzong-s13",
+    "source": "xianzong",
+    "target": "xianzong-s13",
+    "type": "father_son",
+    "label": "荣庄王"
+  },
+  {
+    "id": "r-fs-xianzong-s14",
+    "source": "xianzong",
+    "target": "xianzong-s14",
+    "type": "father_son",
+    "label": "申懿王"
+  },
+  {
+    "id": "r-fs-xiaozong-s1",
+    "source": "xiaozong",
+    "target": "wuzong",
+    "type": "father_son",
+    "label": "太子"
+  },
+  {
+    "id": "r-fs-xiaozong-s2",
+    "source": "xiaozong",
+    "target": "xiaozong-s2",
+    "type": "father_son",
+    "label": "次子"
+  },
+  {
+    "id": "r-fs-shizong-s1",
+    "source": "shizong",
+    "target": "shizong-s1",
+    "type": "father_son",
+    "label": "哀冲太子"
+  },
+  {
+    "id": "r-fs-shizong-s2",
+    "source": "shizong",
+    "target": "shizong-s2",
+    "type": "father_son",
+    "label": "庄敬太子"
+  },
+  {
+    "id": "r-fs-shizong-s3",
+    "source": "shizong",
+    "target": "muzong",
+    "type": "father_son",
+    "label": "裕王、太子"
+  },
+  {
+    "id": "r-fs-shizong-s4",
+    "source": "shizong",
+    "target": "shizong-s4",
+    "type": "father_son",
+    "label": "景恭王"
+  },
+  {
+    "id": "r-fs-shizong-s5",
+    "source": "shizong",
+    "target": "shizong-s5",
+    "type": "father_son",
+    "label": "五子"
+  },
+  {
+    "id": "r-fs-shizong-s6",
+    "source": "shizong",
+    "target": "shizong-s6",
+    "type": "father_son",
+    "label": "六子"
+  },
+  {
+    "id": "r-fs-shizong-s7",
+    "source": "shizong",
+    "target": "shizong-s7",
+    "type": "father_son",
+    "label": "蓟哀王"
+  },
+  {
+    "id": "r-fs-shizong-s8",
+    "source": "shizong",
+    "target": "shizong-s8",
+    "type": "father_son",
+    "label": "八子"
+  },
+  {
+    "id": "r-fs-muzong-s1",
+    "source": "muzong",
+    "target": "muzong-s1",
+    "type": "father_son",
+    "label": "宪怀太子"
+  },
+  {
+    "id": "r-fs-muzong-s2",
+    "source": "muzong",
+    "target": "muzong-s2",
+    "type": "father_son",
+    "label": "二子"
+  },
+  {
+    "id": "r-fs-muzong-s3",
+    "source": "muzong",
+    "target": "shenzong",
+    "type": "father_son",
+    "label": "太子"
+  },
+  {
+    "id": "r-fs-muzong-s4",
+    "source": "muzong",
+    "target": "muzong-s4",
+    "type": "father_son",
+    "label": "潞简王"
+  },
+  {
+    "id": "r-fs-shenzong-s1",
+    "source": "shenzong",
+    "target": "guangzong",
+    "type": "father_son",
+    "label": "太子"
+  },
+  {
+    "id": "r-fs-shenzong-s2",
+    "source": "shenzong",
+    "target": "shenzong-s2",
+    "type": "father_son",
+    "label": "邠哀王"
+  },
+  {
+    "id": "r-fs-shenzong-s3",
+    "source": "shenzong",
+    "target": "shenzong-s3",
+    "type": "father_son",
+    "label": "福忠王"
+  },
+  {
+    "id": "r-fs-shenzong-s4",
+    "source": "shenzong",
+    "target": "shenzong-s4",
+    "type": "father_son",
+    "label": "四子"
+  },
+  {
+    "id": "r-fs-shenzong-s5",
+    "source": "shenzong",
+    "target": "shenzong-s5",
+    "type": "father_son",
+    "label": "瑞王"
+  },
+  {
+    "id": "r-fs-shenzong-s6",
+    "source": "shenzong",
+    "target": "shenzong-s6",
+    "type": "father_son",
+    "label": "惠王"
+  },
+  {
+    "id": "r-fs-shenzong-s7",
+    "source": "shenzong",
+    "target": "shenzong-s7",
+    "type": "father_son",
+    "label": "桂端王"
+  },
+  {
+    "id": "r-fs-shenzong-s8",
+    "source": "shenzong",
+    "target": "shenzong-s8",
+    "type": "father_son",
+    "label": "八子"
+  },
+  {
+    "id": "r-fs-guangzong-s1",
+    "source": "guangzong",
+    "target": "xizong",
+    "type": "father_son",
+    "label": "太子"
+  },
+  {
+    "id": "r-fs-guangzong-s2",
+    "source": "guangzong",
+    "target": "guangzong-s2",
+    "type": "father_son",
+    "label": "简怀王"
+  },
+  {
+    "id": "r-fs-guangzong-s3",
+    "source": "guangzong",
+    "target": "guangzong-s3",
+    "type": "father_son",
+    "label": "齐思王"
+  },
+  {
+    "id": "r-fs-guangzong-s4",
+    "source": "guangzong",
+    "target": "guangzong-s4",
+    "type": "father_son",
+    "label": "四子"
+  },
+  {
+    "id": "r-fs-guangzong-s5",
+    "source": "guangzong",
+    "target": "sizong",
+    "type": "father_son",
+    "label": "信王"
+  },
+  {
+    "id": "r-fs-guangzong-s6",
+    "source": "guangzong",
+    "target": "guangzong-s6",
+    "type": "father_son",
+    "label": "湘怀王"
+  },
+  {
+    "id": "r-fs-guangzong-s7",
+    "source": "guangzong",
+    "target": "guangzong-s7",
+    "type": "father_son",
+    "label": "惠昭王"
+  },
+  {
+    "id": "r-fs-xizong-s1",
+    "source": "xizong",
+    "target": "xizong-s1",
+    "type": "father_son",
+    "label": "长子"
+  },
+  {
+    "id": "r-fs-xizong-s2",
+    "source": "xizong",
+    "target": "xizong-s2",
+    "type": "father_son",
+    "label": "次子"
+  },
+  {
+    "id": "r-fs-xizong-s3",
+    "source": "xizong",
+    "target": "xizong-s3",
+    "type": "father_son",
+    "label": "三子"
+  },
+  {
+    "id": "r-fs-sizong-s1",
+    "source": "sizong",
+    "target": "sizong-s1",
+    "type": "father_son",
+    "label": "献感太子"
+  },
+  {
+    "id": "r-fs-sizong-s2",
+    "source": "sizong",
+    "target": "sizong-s2",
+    "type": "father_son",
+    "label": "怀隐王"
+  },
+  {
+    "id": "r-fs-sizong-s3",
+    "source": "sizong",
+    "target": "sizong-s3",
+    "type": "father_son",
+    "label": "定哀王"
+  },
+  {
+    "id": "r-fs-sizong-s4",
+    "source": "sizong",
+    "target": "sizong-s4",
+    "type": "father_son",
+    "label": "永悼王"
+  },
+  {
+    "id": "r-fs-sizong-s5",
+    "source": "sizong",
+    "target": "sizong-s5",
+    "type": "father_son",
+    "label": "悼灵王"
+  },
+  {
+    "id": "r-fs-sizong-s6",
+    "source": "sizong",
+    "target": "sizong-s6",
+    "type": "father_son",
+    "label": "悼怀王"
+  },
+  {
+    "id": "r-fs-sizong-s7",
+    "source": "sizong",
+    "target": "sizong-s7",
+    "type": "father_son",
+    "label": "悼良王"
+  },
+  {
+    "id": "r-fs-extra-1",
+    "source": "taizu-s1",
+    "target": "huidi",
+    "type": "father_son",
+    "label": "父子"
+  },
+  {
+    "id": "r-fs-extra-2",
+    "source": "xianzong-s4",
+    "target": "shizong",
+    "type": "father_son",
+    "label": "父子"
+  },
+  {
+    "id": "r-fs-extra-3",
+    "source": "shenzong-s3",
+    "target": "anzong",
+    "type": "father_son",
+    "label": "父子"
+  },
+  {
+    "id": "r-fs-extra-4",
+    "source": "shenzong-s7",
+    "target": "zhaozong",
+    "type": "father_son",
+    "label": "父子"
+  }
+]

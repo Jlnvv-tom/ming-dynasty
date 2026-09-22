@@ -1,0 +1,447 @@
+[
+  {
+    "id": "taizu",
+    "index": 1,
+    "templeName": "太祖",
+    "name": "朱元璋",
+    "eras": [
+      {
+        "name": "洪武",
+        "start": 1368,
+        "end": 1398,
+        "years": 31,
+        "raw": "31年(1368-1398)"
+      }
+    ],
+    "reignText": "31年(1368-1398)",
+    "posthumousName": "圣神文武 钦明启运 峻德成功 统天大孝 高皇帝",
+    "branch": "ming",
+    "reignStart": 1368,
+    "reignEnd": 1398,
+    "reignYears": 31
+  },
+  {
+    "id": "huidi",
+    "index": 2,
+    "templeName": "惠帝",
+    "name": "朱允炆",
+    "eras": [
+      {
+        "name": "建文",
+        "start": 1398,
+        "end": 1402,
+        "years": 4,
+        "raw": "4年 (1398-1402)"
+      }
+    ],
+    "reignText": "4年 (1398-1402)",
+    "posthumousName": "让皇帝",
+    "branch": "ming",
+    "reignStart": 1398,
+    "reignEnd": 1402,
+    "reignYears": 4
+  },
+  {
+    "id": "chengzu",
+    "index": 3,
+    "templeName": "成祖",
+    "name": "朱棣",
+    "eras": [
+      {
+        "name": "永乐",
+        "start": 1403,
+        "end": 1424,
+        "years": 22,
+        "raw": "22年(1403-1424)"
+      }
+    ],
+    "reignText": "22年(1403-1424)",
+    "posthumousName": "启天弘道 高明肇运 圣武神功 纯仁至孝 文皇帝",
+    "branch": "ming",
+    "reignStart": 1403,
+    "reignEnd": 1424,
+    "reignYears": 22
+  },
+  {
+    "id": "renzong",
+    "index": 4,
+    "templeName": "仁宗",
+    "name": "朱高炽",
+    "eras": [
+      {
+        "name": "洪熙",
+        "start": 1425,
+        "end": 1425,
+        "years": 1,
+        "raw": "1年 (1425)"
+      }
+    ],
+    "reignText": "1年 (1425)",
+    "posthumousName": "敬天体道 纯诚至德 弘文钦武 章圣达孝 昭皇帝",
+    "branch": "ming",
+    "reignStart": 1425,
+    "reignEnd": 1425,
+    "reignYears": 1
+  },
+  {
+    "id": "xuanzong",
+    "index": 5,
+    "templeName": "宣宗",
+    "name": "朱瞻基",
+    "eras": [
+      {
+        "name": "宣德",
+        "start": 1426,
+        "end": 1435,
+        "years": 10,
+        "raw": "10年(1426-1435)"
+      }
+    ],
+    "reignText": "10年(1426-1435)",
+    "posthumousName": "宪天崇道 英明神圣 钦文昭武 宽仁纯孝 章皇帝",
+    "branch": "ming",
+    "reignStart": 1426,
+    "reignEnd": 1435,
+    "reignYears": 10
+  },
+  {
+    "id": "yingzong",
+    "index": 6,
+    "templeName": "英宗",
+    "name": "朱祁镇",
+    "eras": [
+      {
+        "name": "正统",
+        "start": 1436,
+        "end": 1449,
+        "years": 14,
+        "raw": "14年(1436-1449)"
+      },
+      {
+        "name": "天顺",
+        "start": 1457,
+        "end": 1464,
+        "years": 8,
+        "raw": "8年 (1457-1464)"
+      }
+    ],
+    "reignText": "14年(1436-1449)、8年 (1457-1464)",
+    "posthumousName": "法天立道 仁明诚敬 昭文宪武 至德广孝 睿皇帝",
+    "branch": "ming",
+    "reignStart": 1436,
+    "reignEnd": 1464,
+    "reignYears": 22
+  },
+  {
+    "id": "daizong",
+    "index": 7,
+    "templeName": "代宗",
+    "name": "朱祁钰",
+    "eras": [
+      {
+        "name": "景泰",
+        "start": 1450,
+        "end": 1457,
+        "years": 8,
+        "raw": "8年 (1450-1457)"
+      }
+    ],
+    "reignText": "8年 (1450-1457)",
+    "posthumousName": "恭仁康定 景皇帝",
+    "branch": "ming",
+    "reignStart": 1450,
+    "reignEnd": 1457,
+    "reignYears": 8
+  },
+  {
+    "id": "xianzong",
+    "index": 8,
+    "templeName": "宪宗",
+    "name": "朱见深",
+    "eras": [
+      {
+        "name": "成化",
+        "start": 1465,
+        "end": 1487,
+        "years": 23,
+        "raw": "23年(1465-1487)"
+      }
+    ],
+    "reignText": "23年(1465-1487)",
+    "posthumousName": "继天凝道 诚明仁敬 崇文肃武 宏德圣孝 纯皇帝",
+    "branch": "ming",
+    "reignStart": 1465,
+    "reignEnd": 1487,
+    "reignYears": 23
+  },
+  {
+    "id": "xiaozong",
+    "index": 9,
+    "templeName": "孝宗",
+    "name": "朱佑樘",
+    "eras": [
+      {
+        "name": "弘治",
+        "start": 1488,
+        "end": 1505,
+        "years": 18,
+        "raw": "18年(1488-1505)"
+      }
+    ],
+    "reignText": "18年(1488-1505)",
+    "posthumousName": "达天明道 纯诚中正 圣文神武 至仁大德 敬皇帝",
+    "branch": "ming",
+    "reignStart": 1488,
+    "reignEnd": 1505,
+    "reignYears": 18
+  },
+  {
+    "id": "wuzong",
+    "index": 10,
+    "templeName": "武宗",
+    "name": "朱厚照",
+    "eras": [
+      {
+        "name": "正德",
+        "start": 1505,
+        "end": 1521,
+        "years": 16,
+        "raw": "16年(1505-1521)"
+      }
+    ],
+    "reignText": "16年(1505-1521)",
+    "posthumousName": "承天达道 英肃睿哲 昭德显功 弘文思孝 毅皇帝",
+    "branch": "ming",
+    "reignStart": 1505,
+    "reignEnd": 1521,
+    "reignYears": 16
+  },
+  {
+    "id": "shizong",
+    "index": 11,
+    "templeName": "世宗",
+    "name": "朱厚熜",
+    "eras": [
+      {
+        "name": "嘉靖",
+        "start": 1522,
+        "end": 1566,
+        "years": 45,
+        "raw": "45年(1522-1566)"
+      }
+    ],
+    "reignText": "45年(1522-1566)",
+    "posthumousName": "钦天履道 英毅神圣 宣文广武 洪仁大孝 肃皇帝",
+    "branch": "ming",
+    "reignStart": 1522,
+    "reignEnd": 1566,
+    "reignYears": 45
+  },
+  {
+    "id": "muzong",
+    "index": 12,
+    "templeName": "穆宗",
+    "name": "朱载垕",
+    "eras": [
+      {
+        "name": "隆庆",
+        "start": 1567,
+        "end": 1572,
+        "years": 6,
+        "raw": "6年 (1567-1572)"
+      }
+    ],
+    "reignText": "6年 (1567-1572)",
+    "posthumousName": "契天隆道 渊懿宽仁 显文光武 纯德弘孝 庄皇帝",
+    "branch": "ming",
+    "reignStart": 1567,
+    "reignEnd": 1572,
+    "reignYears": 6
+  },
+  {
+    "id": "shenzong",
+    "index": 13,
+    "templeName": "神宗",
+    "name": "朱翊钧",
+    "eras": [
+      {
+        "name": "万历",
+        "start": 1573,
+        "end": 1620,
+        "years": 48,
+        "raw": "48年(1573-1620)"
+      }
+    ],
+    "reignText": "48年(1573-1620)",
+    "posthumousName": "范天合道 哲肃敦简 光文章武 安仁止孝 显皇帝",
+    "branch": "ming",
+    "reignStart": 1573,
+    "reignEnd": 1620,
+    "reignYears": 48
+  },
+  {
+    "id": "guangzong",
+    "index": 14,
+    "templeName": "光宗",
+    "name": "朱常洛",
+    "eras": [
+      {
+        "name": "泰昌",
+        "start": 1620,
+        "end": 1620,
+        "years": 0,
+        "raw": "1月 (1620)"
+      }
+    ],
+    "reignText": "1月 (1620)",
+    "posthumousName": "崇天契道 英睿恭纯 宪文景武 渊仁懿孝 贞皇帝",
+    "branch": "ming",
+    "reignStart": 1620,
+    "reignEnd": 1620
+  },
+  {
+    "id": "xizong",
+    "index": 15,
+    "templeName": "熹宗",
+    "name": "朱由校",
+    "eras": [
+      {
+        "name": "天启",
+        "start": 1621,
+        "end": 1627,
+        "years": 7,
+        "raw": "7年 (1621-1627)"
+      }
+    ],
+    "reignText": "7年 (1621-1627)",
+    "posthumousName": "达天阐道 敦孝笃友 章文襄武 靖穆庄勤 悊皇帝",
+    "branch": "ming",
+    "reignStart": 1621,
+    "reignEnd": 1627,
+    "reignYears": 7
+  },
+  {
+    "id": "sizong",
+    "index": 16,
+    "templeName": "思宗",
+    "name": "朱由检",
+    "eras": [
+      {
+        "name": "崇祯",
+        "start": 1628,
+        "end": 1644,
+        "years": 17,
+        "raw": "17年(1628-1644)"
+      }
+    ],
+    "reignText": "17年(1628-1644)",
+    "posthumousName": "烈皇帝",
+    "branch": "ming",
+    "reignStart": 1628,
+    "reignEnd": 1644,
+    "reignYears": 17
+  },
+  {
+    "id": "anzong",
+    "index": 17,
+    "templeName": "安宗",
+    "name": "朱由崧",
+    "eras": [
+      {
+        "name": "弘光",
+        "start": 1644,
+        "end": 1645,
+        "years": 1,
+        "raw": "1年(1644-1645)"
+      }
+    ],
+    "reignText": "1年(1644-1645)",
+    "posthumousName": "奉天遵道 宽和静穆 修文布武 温恭仁孝 简皇帝",
+    "branch": "nanming",
+    "reignStart": 1644,
+    "reignEnd": 1645,
+    "reignYears": 1
+  },
+  {
+    "id": "shaozong",
+    "index": 18,
+    "templeName": "绍宗",
+    "name": "朱聿键",
+    "eras": [
+      {
+        "name": "隆武",
+        "start": 1645,
+        "end": 1646,
+        "years": 2,
+        "raw": "2年(1645-1646)"
+      }
+    ],
+    "reignText": "2年(1645-1646)",
+    "posthumousName": "配天至道 弘毅肃穆 思文烈武 敏仁广孝 襄皇帝",
+    "branch": "nanming",
+    "reignStart": 1645,
+    "reignEnd": 1646,
+    "reignYears": 2
+  },
+  {
+    "id": "wenzong",
+    "index": 19,
+    "templeName": "文宗",
+    "name": "朱聿鐭",
+    "eras": [
+      {
+        "name": "绍武",
+        "start": 1646,
+        "end": 1646,
+        "years": 0,
+        "raw": "1月 (1646)"
+      }
+    ],
+    "reignText": "1月 (1646)",
+    "posthumousName": "贞天应道 昭崇德毅 宁文宏武 达仁闵孝 节皇帝",
+    "branch": "nanming",
+    "reignStart": 1646,
+    "reignEnd": 1646
+  },
+  {
+    "id": "jingzong",
+    "index": 20,
+    "templeName": "敬宗",
+    "name": "朱常清",
+    "eras": [
+      {
+        "name": "东武",
+        "start": 1648,
+        "end": 1648,
+        "years": 0,
+        "raw": "9月 (1648)"
+      }
+    ],
+    "reignText": "9月 (1648)",
+    "posthumousName": "忠天隆道 昭义钦成 靖文襄武 奋仁睿孝 和皇帝",
+    "branch": "nanming",
+    "reignStart": 1648,
+    "reignEnd": 1648
+  },
+  {
+    "id": "zhaozong",
+    "index": 21,
+    "templeName": "昭宗",
+    "name": "朱由榔",
+    "eras": [
+      {
+        "name": "永历",
+        "start": 1647,
+        "end": 1662,
+        "years": 16,
+        "raw": "16年(1647-1662)"
+      }
+    ],
+    "reignText": "16年(1647-1662)",
+    "posthumousName": "应天推道 敏毅恭俭 经文纬武 体仁克孝 匡皇帝",
+    "branch": "nanming",
+    "reignStart": 1647,
+    "reignEnd": 1662,
+    "reignYears": 16
+  }
+]

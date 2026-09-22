@@ -1,0 +1,484 @@
+{
+  "titles": [
+    {
+      "label": "皇子",
+      "chain": [
+        "亲王",
+        "郡王",
+        "镇国将军",
+        "辅国将军",
+        "奉国将军",
+        "镇国中尉",
+        "辅国中尉",
+        "奉国中尉"
+      ]
+    },
+    {
+      "label": "皇女",
+      "chain": [
+        "大长公主",
+        "长公主",
+        "公主",
+        "郡主",
+        "县主",
+        "郡君",
+        "县君"
+      ]
+    }
+  ],
+  "civilGrades": [
+    {
+      "rankLabel": "正一品",
+      "rankSort": 10,
+      "initial": "特进荣禄大夫",
+      "promote": "特进光禄大夫"
+    },
+    {
+      "rankLabel": "从一品",
+      "rankSort": 15,
+      "initial": "荣禄大夫",
+      "promote": "光禄大夫"
+    },
+    {
+      "rankLabel": "正二品",
+      "rankSort": 20,
+      "initial": "资善大夫",
+      "promote": "资政大夫",
+      "add": "资德大夫"
+    },
+    {
+      "rankLabel": "从二品",
+      "rankSort": 25,
+      "initial": "中奉大夫",
+      "promote": "通奉大夫",
+      "add": "正奉大夫"
+    },
+    {
+      "rankLabel": "正三品",
+      "rankSort": 30,
+      "initial": "嘉议大夫",
+      "promote": "通议大夫",
+      "add": "正议大夫"
+    },
+    {
+      "rankLabel": "从三品",
+      "rankSort": 35,
+      "initial": "亚中大夫",
+      "promote": "中大夫",
+      "add": "大中大夫"
+    },
+    {
+      "rankLabel": "正四品",
+      "rankSort": 40,
+      "initial": "中顺大夫",
+      "promote": "中宪大夫",
+      "add": "中议大夫"
+    },
+    {
+      "rankLabel": "从四品",
+      "rankSort": 45,
+      "initial": "朝列大夫",
+      "promote": "朝议大夫",
+      "add": "朝请大夫"
+    },
+    {
+      "rankLabel": "正五品",
+      "rankSort": 50,
+      "initial": "奉议大夫",
+      "promote": "奉政大夫"
+    },
+    {
+      "rankLabel": "从五品",
+      "rankSort": 55,
+      "initial": "奉训大夫",
+      "promote": "奉直大夫"
+    },
+    {
+      "rankLabel": "正六品",
+      "rankSort": 60,
+      "initial": "承直郎",
+      "promote": "承德郎"
+    },
+    {
+      "rankLabel": "从六品",
+      "rankSort": 65,
+      "initial": "承务郎",
+      "promote": "儒林郎"
+    },
+    {
+      "rankLabel": "正七品",
+      "rankSort": 70,
+      "initial": "承事郎",
+      "promote": "文林郎"
+    },
+    {
+      "rankLabel": "从七品",
+      "rankSort": 75,
+      "initial": "从仕郎",
+      "promote": "征仕郎"
+    },
+    {
+      "rankLabel": "正八品",
+      "rankSort": 80,
+      "initial": "迪功郎",
+      "promote": "修职郎"
+    },
+    {
+      "rankLabel": "从八品",
+      "rankSort": 85,
+      "initial": "迪功佐郎",
+      "promote": "修职佐郎"
+    },
+    {
+      "rankLabel": "正九品",
+      "rankSort": 90,
+      "initial": "将仕郎",
+      "promote": "登仕郎"
+    },
+    {
+      "rankLabel": "从九品",
+      "rankSort": 95,
+      "initial": "将仕佐郎",
+      "promote": "登仕佐郎"
+    }
+  ],
+  "militaryGrades": [
+    {
+      "rankLabel": "正一品",
+      "rankSort": 10,
+      "initial": "特进荣禄大夫",
+      "promote": "特进光禄大夫"
+    },
+    {
+      "rankLabel": "从一品",
+      "rankSort": 15,
+      "initial": "荣禄大夫",
+      "promote": "光禄大夫"
+    },
+    {
+      "rankLabel": "正二品",
+      "rankSort": 20,
+      "initial": "骠骑将军",
+      "promote": "金吾将军",
+      "add": "龙虎将军"
+    },
+    {
+      "rankLabel": "从二品",
+      "rankSort": 25,
+      "initial": "镇国将军",
+      "promote": "定国将军",
+      "add": "奉国将军"
+    },
+    {
+      "rankLabel": "正三品",
+      "rankSort": 30,
+      "initial": "昭勇将军",
+      "promote": "昭毅将军",
+      "add": "昭武将军"
+    },
+    {
+      "rankLabel": "从三品",
+      "rankSort": 35,
+      "initial": "怀远将军",
+      "promote": "定远将军",
+      "add": "安远将军"
+    },
+    {
+      "rankLabel": "正四品",
+      "rankSort": 40,
+      "initial": "明威将军",
+      "promote": "宣威将军",
+      "add": "广威将军"
+    },
+    {
+      "rankLabel": "从四品",
+      "rankSort": 45,
+      "initial": "宣武将军",
+      "promote": "显武将军",
+      "add": "信武将军"
+    },
+    {
+      "rankLabel": "正五品",
+      "rankSort": 50,
+      "initial": "武德将军",
+      "promote": "武节将军"
+    },
+    {
+      "rankLabel": "从五品",
+      "rankSort": 55,
+      "initial": "武略将军",
+      "promote": "武毅将军"
+    },
+    {
+      "rankLabel": "正六品",
+      "rankSort": 60,
+      "initial": "昭信校尉",
+      "promote": "承信校尉"
+    },
+    {
+      "rankLabel": "从六品",
+      "rankSort": 65,
+      "initial": "忠显校尉",
+      "promote": "忠武校尉"
+    }
+  ],
+  "civilMerits": [
+    {
+      "rankLabel": "正一品",
+      "name": "左、右柱国"
+    },
+    {
+      "rankLabel": "从一品",
+      "name": "柱国"
+    },
+    {
+      "rankLabel": "正二品",
+      "name": "正治上卿"
+    },
+    {
+      "rankLabel": "从二品",
+      "name": "正治卿"
+    },
+    {
+      "rankLabel": "正三品",
+      "name": "资治尹"
+    },
+    {
+      "rankLabel": "从三品",
+      "name": "资治少尹"
+    },
+    {
+      "rankLabel": "正四品",
+      "name": "赞治尹"
+    },
+    {
+      "rankLabel": "从四品",
+      "name": "赞治少尹"
+    },
+    {
+      "rankLabel": "正五品",
+      "name": "修正庶尹"
+    },
+    {
+      "rankLabel": "从五品",
+      "name": "协正庶尹"
+    }
+  ],
+  "militaryMerits": [
+    {
+      "rankLabel": "正一品",
+      "name": "左、右柱国"
+    },
+    {
+      "rankLabel": "从一品",
+      "name": "柱国"
+    },
+    {
+      "rankLabel": "正二品",
+      "name": "上护军"
+    },
+    {
+      "rankLabel": "从二品",
+      "name": "护军"
+    },
+    {
+      "rankLabel": "正三品",
+      "name": "上轻车都尉"
+    },
+    {
+      "rankLabel": "从三品",
+      "name": "轻车都尉"
+    },
+    {
+      "rankLabel": "正四品",
+      "name": "上骑都尉"
+    },
+    {
+      "rankLabel": "从四品",
+      "name": "骑都尉"
+    },
+    {
+      "rankLabel": "正五品",
+      "name": "骁骑尉"
+    },
+    {
+      "rankLabel": "从五品",
+      "name": "飞骑尉"
+    },
+    {
+      "rankLabel": "正六品",
+      "name": "云骑尉"
+    },
+    {
+      "rankLabel": "从六品",
+      "name": "武骑尉"
+    }
+  ],
+  "exams": [
+    {
+      "id": "exam-child",
+      "name": "童试",
+      "order": 1,
+      "place": "院试：各省学政 （提督学院）",
+      "time": "三年两考",
+      "grade": "秀才",
+      "outcomes": [
+        "廪膳生（廪生）：成绩最优，官府每月发廪米银粮，可优先保举为贡生",
+        "增广生（增生）：二等，额外扩招名额，无俸禄",
+        "附学生（附生）：三等，新晋秀才，候补身份"
+      ],
+      "steps": [
+        {
+          "name": "县试",
+          "place": "县试：本县知县",
+          "time": "每年一次",
+          "outcome": "获得府试资格"
+        },
+        {
+          "name": "府试",
+          "place": "府试：知府",
+          "time": "县试后1-3个月",
+          "outcome": "获得院试资格"
+        },
+        {
+          "name": "院试",
+          "place": "院试：各省学政 （提督学院）",
+          "time": "三年两考",
+          "outcome": "廪膳生（廪生）：成绩最优，官府每月发廪米银粮，可优先保举为贡生"
+        }
+      ]
+    },
+    {
+      "id": "exam-provincial",
+      "name": "乡试",
+      "order": 2,
+      "place": "各省布政司贡院 （如山东考生赴济南）",
+      "time": "三年一次 （皇帝登基、 大婚等喜事可加开恩科）",
+      "grade": "举人 第一名称解元",
+      "outcomes": [
+        "次年进京参加会试冲刺进士",
+        "多次会试落第，可走\"大挑/拣选\"出任府学训导、县教谕、县丞等基层官员"
+      ]
+    },
+    {
+      "id": "exam-metropolitan",
+      "name": "会试",
+      "order": 3,
+      "place": "京城礼部贡院（北京）",
+      "time": "每三年一次，在乡试次年 举行，逢辰、戌、丑、未年",
+      "grade": "贡士 第一名称会元",
+      "outcomes": [
+        "贡士本身不直接授官，需经殿试获得进士身份后方可授职"
+      ]
+    },
+    {
+      "id": "exam-palace",
+      "name": "殿试",
+      "order": 4,
+      "place": "奉天殿（皇极殿） 后改在文华殿",
+      "time": "会试后约一个月， 明初为三月初一， 成化八年（1472年） 后固定为三月十五",
+      "grade": "一甲进士 / 二甲进士 / 三甲进士",
+      "outcomes": [
+        "状元；一甲第一名，授翰林院修撰(从六品)",
+        "榜眼；一甲第二名，授翰林院编修(正七品)",
+        "探花；一甲第三名，授翰林院编修(正七品)",
+        "赐同进士出身，几十至一百人，二甲第一名为传胪， 可参加庶吉士馆选，入选者入翰林院庶常馆进修三年；未入选者外派六部主事、知县等",
+        "人数不固定，常一两百人多数外放地方知县、推官，少数优秀者可被特选为庶吉士"
+      ]
+    }
+  ],
+  "poems": [
+    {
+      "house": "太子房",
+      "poem": "允文遵祖训，钦武大君胜，顺道宜缝吉，师良善用晟。"
+    },
+    {
+      "house": "秦王房",
+      "poem": "尚志公诚秉，惟怀敬谊存，辅嗣资廉直，匡时永信敦。"
+    },
+    {
+      "house": "晋王房",
+      "poem": "济美锺奇表，知新慎敏求，审心咸景慕，述学继前修。"
+    },
+    {
+      "house": "燕王房",
+      "poem": "高瞻祁见祐，厚载翊常由，慈和怡伯仲，简靖迪先猷。"
+    },
+    {
+      "house": "周王房",
+      "poem": "有子同安睦，勤朝在肃恭，绍伦敷惠润，昭格广登庸。"
+    },
+    {
+      "house": "楚王房",
+      "poem": "孟季均荣显，英华蕴盛容，宏才升博衍，茂士立全功。"
+    },
+    {
+      "house": "齐王房",
+      "poem": "贤能长可庆，睿智实堪宗，养性期渊雅，寅思复会通。"
+    },
+    {
+      "house": "鲁王房",
+      "poem": "肇泰阳当健，观颐寿以弘，振举希兼达，康庄遇本宁。"
+    },
+    {
+      "house": "蜀王房",
+      "poem": "悦友申宾让，承宣奉至平，懋进深滋益，端居务穆清。"
+    },
+    {
+      "house": "湘王房",
+      "poem": "久镇开方岳，扬威谨礼仪，刚毅循超卓，权衡素自持。"
+    },
+    {
+      "house": "代王房",
+      "poem": "逊仕成聪俊，充廷鼐鼎彝，传贻连秀郁，炳燿壮洪基。"
+    },
+    {
+      "house": "肃王房",
+      "poem": "瞻禄贡真弼，缙绅识烈忠，曦晖跻当运，凯谏处恒隆。"
+    },
+    {
+      "house": "辽王房",
+      "poem": "贵豪恩宠致，宪术俨尊儒，云仍祺保合，操翰丽龙舆。"
+    },
+    {
+      "house": "庆王房",
+      "poem": "秩邃寘台鼒，倪伸帅倬奇，适完因巨衎，骘眷发需毗。"
+    },
+    {
+      "house": "宁王房",
+      "poem": "磐奠觐宸拱，多谋统议中，总添支庶阔，作哲向亲衷。"
+    },
+    {
+      "house": "岷王房",
+      "poem": "徽音膺彦誉，定干企禋雍，崇礼原谘访，宽镕喜贲从。"
+    },
+    {
+      "house": "谷王房",
+      "poem": "赋质僖雄敞，丛兴阐福昌，笃谐恂怿豫，扩霁昱祯祥。"
+    },
+    {
+      "house": "韩王房",
+      "poem": "冲范徵偕旭，融谟朗璟逵，亶韶愉灏慥，令绪价蕃维。"
+    },
+    {
+      "house": "沈王房",
+      "poem": "佶幼诠勋胤，恬珵效回瑝，湜源諲晳暐，圭璧澈澄昂。"
+    },
+    {
+      "house": "安王房",
+      "poem": "斐序斌廷赏，凝覃浚祉襄，恢严颛辑矩，缜密廓程纲。"
+    },
+    {
+      "house": "唐王房",
+      "poem": "琼芝弥宇宙，硕器聿琳琚，启龄蒙颂体，嘉历协铭图。"
+    },
+    {
+      "house": "郢王房",
+      "poem": "伟闻参望奭，箴诲洎皋夔，麒麟馀积兆，奎颖晔璇玑。"
+    },
+    {
+      "house": "伊王房",
+      "poem": "颙勉諟訏典，褒珂采凤琛，应畴颁胄选，昆玉冠泉金。"
+    }
+  ]
+}
