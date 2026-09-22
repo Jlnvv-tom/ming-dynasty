@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import type { Emperor, Post, Prince, Relation } from '../src/types/index';
+import { loadSupplement } from './etl/supplement';
 
 const ROOT = path.resolve(__dirname, '..');
 const read = <T>(file: string): T =>
@@ -57,8 +58,61 @@ indexes.forEach((idx, i) => {
   if (idx !== i + 1) errors.push(`皇帝序位不连续：第 ${i + 1} 位为 ${idx}`);
 });
 
+// 5. 编者注校验（data/supplement）
+const supplement = loadSupplement(path.join(ROOT, 'data/supplement'));
+const princeIds = new Set(princes.map((prince) => prince.id));
+const seenEmperors = new Set<string>();
+const seenPrinces = new Set<string>();
+
+for (const item of supplement.emperors) {
+  if (!emperorIds.has(item.emperorId)) errors.push(`帝王编者注引用了不存在的 id：${item.emperorId}`);
+  if (seenEmperors.has(item.emperorId)) errors.push(`帝王编者注重复：${item.emperorId}`);
+  seenEmperors.add(item.emperorId);
+  if (item.summary) {
+    const length = item.summary.replace(/\s/g, '').length;
+    if (length < 80 || length > 260) {
+      errors.push(`帝王 ${item.emperorId} 生平概述 ${length} 字，不在 80–260 区间`);
+    }
+  }
+  if ((item.summary || item.mausoleum) && !(item.sources ?? []).length) {
+    errors.push(`帝王 ${item.emperorId} 有补注却未标出处`);
+  }
+  if (item.birthYear && item.deathYear && item.birthYear > item.deathYear) {
+    errors.push(`帝王 ${item.emperorId} 生卒年倒置：${item.birthYear} > ${item.deathYear}`);
+  }
+  for (const source of item.sources ?? []) {
+    if (source.url && !/^https?:\/\//.test(source.url)) {
+      errors.push(`帝王 ${item.emperorId} 出处链接格式非法：${source.url}`);
+    }
+  }
+}
+
+for (const item of supplement.princes) {
+  if (!princeIds.has(item.princeId)) errors.push(`皇子编者注引用了不存在的 id：${item.princeId}`);
+  if (seenPrinces.has(item.princeId)) errors.push(`皇子编者注重复：${item.princeId}`);
+  seenPrinces.add(item.princeId);
+  if ((item.life || item.fief || item.detail) && !(item.sources ?? []).length) {
+    errors.push(`皇子 ${item.princeId} 有补注却未标出处`);
+  }
+  for (const source of item.sources ?? []) {
+    if (source.url && !/^https?:\/\//.test(source.url)) {
+      errors.push(`皇子 ${item.princeId} 出处链接格式非法：${source.url}`);
+    }
+  }
+}
+
+const SECTIONS = new Set(['jue', 'san', 'xun', 'keju', 'zibei']);
+for (const note of supplement.notes) {
+  if (!SECTIONS.has(note.section)) errors.push(`制度释义 ${note.id} 的 section 非法：${note.section}`);
+  if (!note.body?.trim()) errors.push(`制度释义 ${note.id} 正文为空`);
+  if (!(note.sources ?? []).length) errors.push(`制度释义 ${note.id} 未标出处`);
+}
+
 console.log('数据校验：');
 console.log(`  皇帝 ${emperors.length} / 皇子 ${princes.length} / 关系 ${relations.length} / 官职 ${posts.length}`);
+console.log(
+  `  编者注 ${supplement.emperors.length} 帝 / ${supplement.princes.length} 皇子 / ${supplement.notes.length} 条制度释义`,
+);
 if (warnings.length) {
   console.log(`\n  警告 ${warnings.length} 条：`);
   warnings.slice(0, 10).forEach((w) => console.log(`   - ${w}`));

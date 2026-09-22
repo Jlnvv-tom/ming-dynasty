@@ -39,9 +39,15 @@ export function EmperorCard({ emperor, compact }: EmperorCardProps) {
       </div>
 
       <p className="mt-2 text-xs text-ink-faint dark:text-white/45">
+        {emperor.birthYear
+          ? `${emperor.birthYear} — ${emperor.deathYear ?? '卒年不详'} · `
+          : ''}
         {emperor.reignText || '—'}
         {emperor.reignYears ? ` · 共 ${emperor.reignYears} 年` : ''}
       </p>
+      {emperor.mausoleum ? (
+        <p className="mt-1 text-xs text-gold">{emperor.mausoleum}</p>
+      ) : null}
 
       {compact ? null : (
         <p className="mt-3 line-clamp-2 text-xs leading-relaxed text-ink-soft dark:text-white/55">

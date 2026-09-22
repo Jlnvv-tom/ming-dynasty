@@ -2,6 +2,7 @@ import { ArrowLeft, Network } from 'lucide-react';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+import SourceList from '@/components/ui/source-list';
 import { getAncestorPath, getDescendants } from '@/lib/graph';
 import {
   emperors,
@@ -25,11 +26,14 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const { id } = await params;
   const emperor = getEmperor(id);
   if (!emperor) return { title: '帝王' };
+  const life = emperor.birthYear
+    ? `（${emperor.birthYear}—${emperor.deathYear ?? '卒年不详'}）`
+    : '';
   return {
     title: `${emperor.templeName} ${emperor.name}`,
-    description: `${emperor.templeName}（${emperor.name}），年号${emperor.eras
+    description: `${emperor.templeName}${life}${emperor.name}，年号${emperor.eras
       .map((e) => e.name)
-      .join('、')}，在位 ${emperor.reignText}。谥号：${emperor.posthumousName}。`,
+      .join('、')}，在位 ${emperor.reignText}。${emperor.mausoleum ? `葬${emperor.mausoleum}。` : ''}${emperor.summary ?? ''}`,
   };
 }
 
@@ -91,6 +95,14 @@ export default async function EmperorDetailPage({ params }: Params) {
         <div className="gold-rule my-5" />
 
         <div className="grid gap-x-10 sm:grid-cols-2">
+          <InfoRow
+            label="生卒"
+            value={
+              emperor.birthYear
+                ? `${emperor.birthYear} — ${emperor.deathYear ?? '卒年不详'}${emperor.birthDate ? `（生于${emperor.birthDate}）` : ''}`
+                : '记载不详'
+            }
+          />
           <InfoRow label="在位" value={emperor.reignText || '—'} />
           <InfoRow
             label="纪年"
@@ -101,9 +113,28 @@ export default async function EmperorDetailPage({ params }: Params) {
             }
           />
           <InfoRow label="年数" value={emperor.reignYears ? `${emperor.reignYears} 年` : '不足一年'} />
+          <InfoRow
+            label="陵寝"
+            value={
+              emperor.mausoleum
+                ? `${emperor.mausoleum}${emperor.mausoleumNote ? `　${emperor.mausoleumNote}` : ''}`
+                : '原表未载'
+            }
+          />
           <InfoRow label="谥号" value={emperor.posthumousName || '未载'} />
         </div>
       </section>
+
+      {/* 生平概述（编者注） */}
+      {emperor.summary ? (
+        <section className="surface mt-6 p-6 sm:p-8">
+          <div className="flex items-baseline justify-between gap-3">
+            <h2 className="font-serif text-lg font-semibold">生平概述</h2>
+            <span className="text-[11px] text-ink-faint dark:text-white/40">编者注 · 据《明史》本纪</span>
+          </div>
+          <p className="mt-3 text-sm leading-loose text-ink-soft dark:text-white/70">{emperor.summary}</p>
+        </section>
+      ) : null}
 
       {/* 世系路径 */}
       {ancestors.length ? (
@@ -225,10 +256,16 @@ export default async function EmperorDetailPage({ params }: Params) {
                     <span className="text-xs text-ink-faint dark:text-white/45">{prince.orderLabel}</span>
                   </div>
                   <p className="mt-0.5 text-xs text-ink-soft dark:text-white/55">
-                    {prince.title ?? ''}
-                    {prince.note ? ` · ${prince.note}` : ''}
+                    {[prince.fief ?? prince.title, prince.life, prince.note]
+                      .filter(Boolean)
+                      .join(' · ')}
                     {prince.isEmperor ? ' · 后即位' : ''}
                   </p>
+                  {prince.detail ? (
+                    <p className="mt-1.5 border-t border-ink/5 pt-1.5 text-[11px] leading-relaxed text-ink-faint dark:border-white/5 dark:text-white/45">
+                      {prince.detail}
+                    </p>
+                  ) : null}
                 </div>
               ))}
             </div>
@@ -237,6 +274,18 @@ export default async function EmperorDetailPage({ params }: Params) {
           )}
         </div>
       </section>
+
+      {emperor.sources?.length ? (
+        <section className="mt-6">
+          <h2 className="mb-3 font-serif text-lg font-semibold">史料出处</h2>
+          <div className="surface p-4">
+            <SourceList sources={emperor.sources} />
+            <p className="mt-3 text-[11px] leading-relaxed text-ink-faint dark:text-white/40">
+              生卒、陵寝与生平概述属编者按史料补注，非原始表格内容；出处以书名与卷次为准，链接仅在可核验时提供。
+            </p>
+          </div>
+        </section>
+      ) : null}
 
       <div className="mt-6 flex flex-wrap gap-3">
         <Link

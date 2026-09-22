@@ -60,6 +60,16 @@ export interface Era {
   raw: string;
 }
 
+/** 史料出处 */
+export interface SourceRef {
+  /** 书名，如《明史》 */
+  book: string;
+  /** 卷次篇目，如「卷一·太祖本纪」 */
+  chapter?: string;
+  /** 可核验的在线链接；无法核实者留空，不臆造 */
+  url?: string;
+}
+
 /** 皇帝 */
 export interface Emperor {
   id: string;
@@ -80,6 +90,21 @@ export interface Emperor {
   reignStart?: number;
   reignEnd?: number;
   reignYears?: number;
+  /* ----- 以下为编者注（来自 data/supplement） ----- */
+  /** 生年 */
+  birthYear?: number;
+  /** 卒年 */
+  deathYear?: number;
+  /** 生卒农历日期补充，如「八月八日」 */
+  birthDate?: string;
+  /** 陵寝 */
+  mausoleum?: string;
+  /** 陵寝备注（如「葬处无考」「后追葬」） */
+  mausoleumNote?: string;
+  /** 生平概述（100–200 字） */
+  summary?: string;
+  /** 出处 */
+  sources?: SourceRef[];
 }
 
 /** 皇子（宗室子嗣） */
@@ -100,6 +125,15 @@ export interface Prince {
   note?: string;
   /** 是否后来即位为帝 */
   isEmperor?: boolean;
+  /* ----- 以下为编者注（来自 data/supplement） ----- */
+  /** 生卒年，如「1355 — 1392」；无明确记载者留空 */
+  life?: string;
+  /** 封国，如「秦」「周」 */
+  fief?: string;
+  /** 事迹补注 */
+  detail?: string;
+  /** 出处 */
+  sources?: SourceRef[];
 }
 
 /** 关系类型 */
@@ -174,6 +208,16 @@ export interface TitleChain {
   chain: string[];
 }
 
+/** 制度释义（编者注） */
+export interface InstitutionNote {
+  id: string;
+  /** 归属板块：jue / san / xun / keju / zibei */
+  section: 'jue' | 'san' | 'xun' | 'keju' | 'zibei';
+  title: string;
+  body: string;
+  sources: SourceRef[];
+}
+
 /** 制度附录 */
 export interface Institutions {
   titles: TitleChain[];
@@ -183,6 +227,8 @@ export interface Institutions {
   militaryMerits: { rankLabel: string; name: string }[];
   exams: ExamStage[];
   poems: GenerationPoem[];
+  /** 术语释义与制度背景 */
+  notes: InstitutionNote[];
 }
 
 /** 数据元信息 */

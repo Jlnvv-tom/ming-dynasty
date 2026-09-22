@@ -6,7 +6,16 @@
     "order": 1,
     "orderLabel": "长子",
     "name": "朱标",
-    "title": "懿文太子"
+    "title": "懿文太子",
+    "life": "1355 — 1392",
+    "fief": "懿文太子（未就藩）",
+    "detail": "太祖嫡长子，洪武元年立为皇太子，多次受命监国，性仁厚。洪武二十五年视察陕西返京后病卒。太祖为之恸哭，改立其子朱允炆为皇太孙。靖难之役后其追尊帝号被削。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百十五·兴宗孝康皇帝"
+      }
+    ]
   },
   {
     "id": "taizu-s2",
@@ -15,7 +24,16 @@
     "order": 2,
     "orderLabel": "次子",
     "name": "朱樉",
-    "title": "秦王"
+    "title": "秦王",
+    "life": "1356 — 1395",
+    "fief": "秦（西安）",
+    "detail": "洪武三年封秦王，就藩西安，镇守西北边陲。在藩多有过失，屡遭太祖斥责，卒谥「愍」。一说为宫人所毒。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百十六·诸王传一"
+      }
+    ]
   },
   {
     "id": "taizu-s3",
@@ -24,7 +42,16 @@
     "order": 3,
     "orderLabel": "三子",
     "name": "朱棡",
-    "title": "晋王"
+    "title": "晋王",
+    "life": "1358 — 1398",
+    "fief": "晋（太原）",
+    "detail": "洪武三年封晋王，就藩太原，与燕王同镇北边，为明初北方屏藩。洪武三十一年卒，谥「恭」。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百十六·诸王传一"
+      }
+    ]
   },
   {
     "id": "taizu-s4",
@@ -34,7 +61,15 @@
     "orderLabel": "四子",
     "name": "朱棣",
     "title": "燕王",
-    "isEmperor": true
+    "isEmperor": true,
+    "fief": "燕（北平）",
+    "detail": "洪武三年封燕王，就藩北平，屡率兵出塞征蒙古。建文元年以「清君侧」起兵，四年后入南京夺位，是为成祖。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷五·成祖本纪"
+      }
+    ]
   },
   {
     "id": "taizu-s5",
@@ -43,7 +78,16 @@
     "order": 5,
     "orderLabel": "五子",
     "name": "朱橚",
-    "title": "周王"
+    "title": "周王",
+    "life": "1361 — 1425",
+    "fief": "吴 → 周（开封）",
+    "detail": "初封吴王，洪武十一年改封周王，十四年就藩开封。永乐朝曾以谋逆之嫌削其护卫。好医药，编《救荒本草》，为明代重要的植物与救荒文献。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百十六·诸王传一"
+      }
+    ]
   },
   {
     "id": "taizu-s6",
@@ -52,7 +96,15 @@
     "order": 6,
     "orderLabel": "六子",
     "name": "朱桢",
-    "title": "楚王"
+    "title": "楚王",
+    "fief": "楚（武昌）",
+    "detail": "洪武三年封楚王，就藩武昌，屡率兵平定南方蛮乱，为南方重镇藩屏，谥「昭」。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百十六·诸王传一"
+      }
+    ]
   },
   {
     "id": "taizu-s7",
@@ -61,7 +113,15 @@
     "order": 7,
     "orderLabel": "七子",
     "name": "朱榑",
-    "title": "齐王"
+    "title": "齐王",
+    "fief": "齐（青州）",
+    "detail": "洪武三年封齐王，就藩青州。性凶暴，建文朝被废为庶人，永乐初复封后又以罪削爵，废锢以终。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百十六·诸王传一"
+      }
+    ]
   },
   {
     "id": "taizu-s8",
@@ -70,7 +130,15 @@
     "order": 8,
     "orderLabel": "八子",
     "name": "朱梓",
-    "title": "潭王"
+    "title": "潭王",
+    "fief": "潭（长沙）",
+    "detail": "洪武三年封潭王，就藩长沙。洪武二十三年因岳父于显卷入胡惟庸案而惊惧，与妃自焚而死，无子国除。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百十六·诸王传一"
+      }
+    ]
   },
   {
     "id": "taizu-s9",
@@ -79,7 +147,15 @@
     "order": 9,
     "orderLabel": "九子",
     "name": "朱杞",
-    "title": "赵王"
+    "title": "赵王",
+    "fief": "赵（未就藩）",
+    "detail": "洪武二年生，洪武三年受封赵王，未及就藩即夭折。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百十六·诸王传一"
+      }
+    ]
   },
   {
     "id": "taizu-s10",
@@ -88,7 +164,15 @@
     "order": 10,
     "orderLabel": "十子",
     "name": "朱檀",
-    "title": "鲁王"
+    "title": "鲁王",
+    "fief": "鲁（兖州）",
+    "detail": "洪武三年封鲁王，十八年就藩兖州。好文礼士、善诗歌，然饵金石药求长生，毒发伤目而卒，太祖恶其行，谥「荒」。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百十六·诸王传一"
+      }
+    ]
   },
   {
     "id": "taizu-s11",
@@ -97,7 +181,15 @@
     "order": 11,
     "orderLabel": "十一子",
     "name": "朱椿",
-    "title": "蜀王"
+    "title": "蜀王",
+    "fief": "蜀（成都）",
+    "detail": "洪武十一年封蜀王，二十三年就藩成都。好学近儒，礼聘方孝孺为世子师，蜀中称为「贤王」。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百十七·诸王传二"
+      }
+    ]
   },
   {
     "id": "taizu-s12",
@@ -106,7 +198,15 @@
     "order": 12,
     "orderLabel": "十二子",
     "name": "朱柏",
-    "title": "湘王"
+    "title": "湘王",
+    "fief": "湘（荆州）",
+    "detail": "洪武十一年封湘王，就藩荆州。喜读书、好道术。建文削藩时被诬谋反，无以自明，阖宫自焚而死。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百十七·诸王传二"
+      }
+    ]
   },
   {
     "id": "taizu-s13",
@@ -115,7 +215,15 @@
     "order": 13,
     "orderLabel": "十三子",
     "name": "朱桂",
-    "title": "代王"
+    "title": "代王",
+    "fief": "豫 → 代（大同）",
+    "detail": "初封豫王，后改封代王，就藩大同，为北边屏藩。性暴戾，屡为不法，正统十一年卒。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百十七·诸王传二"
+      }
+    ]
   },
   {
     "id": "taizu-s14",
@@ -124,7 +232,15 @@
     "order": 14,
     "orderLabel": "十四子",
     "name": "朱楧",
-    "title": "肃王"
+    "title": "肃王",
+    "fief": "汉 → 肃（甘州、后移兰州）",
+    "detail": "初封汉王，后改封肃王，初就藩甘州，后移兰州，控扼河西走廊。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百十七·诸王传二"
+      }
+    ]
   },
   {
     "id": "taizu-s15",
@@ -133,7 +249,15 @@
     "order": 15,
     "orderLabel": "十五子",
     "name": "朱植",
-    "title": "辽王"
+    "title": "辽王",
+    "fief": "卫 → 辽（广宁，后移荆州）",
+    "detail": "初封卫王，后改封辽王，就藩广宁以镇辽东。靖难后被改封荆州。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百十七·诸王传二"
+      }
+    ]
   },
   {
     "id": "taizu-s16",
@@ -142,7 +266,15 @@
     "order": 16,
     "orderLabel": "十六子",
     "name": "朱㮵",
-    "title": "庆王"
+    "title": "庆王",
+    "fief": "庆（宁夏）",
+    "detail": "洪武二十四年封庆王，就藩宁夏，掌北边屯戍，为九边藩屏之一。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百十七·诸王传二"
+      }
+    ]
   },
   {
     "id": "taizu-s17",
@@ -151,7 +283,15 @@
     "order": 17,
     "orderLabel": "十七子",
     "name": "朱权",
-    "title": "宁王"
+    "title": "宁王",
+    "fief": "宁（大宁，后移南昌）",
+    "detail": "洪武二十四年封宁王，就藩大宁，带甲八万、战车六千，为边藩之最。靖难中被燕王并其军，后改封南昌。好文，著《太和正音谱》，为戏曲音律的重要文献。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百十七·诸王传二"
+      }
+    ]
   },
   {
     "id": "taizu-s18",
@@ -160,7 +300,15 @@
     "order": 18,
     "orderLabel": "十八子",
     "name": "朱楩",
-    "title": "岷王"
+    "title": "岷王",
+    "fief": "岷（岷州，后移云南）",
+    "detail": "洪武二十四年封岷王，初就藩岷州，后改云南，曾为西平侯沐晟所劾而削护卫。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百十八·诸王传三"
+      }
+    ]
   },
   {
     "id": "taizu-s19",
@@ -169,7 +317,15 @@
     "order": 19,
     "orderLabel": "十九子",
     "name": "朱橞",
-    "title": "谷王"
+    "title": "谷王",
+    "fief": "谷（宣府，后移长沙）",
+    "detail": "洪武二十四年封谷王，就藩宣府。靖难之役中开门迎燕军入金川门，后改封长沙，永乐朝以谋反被废为庶人。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百十八·诸王传三"
+      }
+    ]
   },
   {
     "id": "taizu-s20",
@@ -178,7 +334,15 @@
     "order": 20,
     "orderLabel": "二十子",
     "name": "朱松",
-    "title": "韩王"
+    "title": "韩王",
+    "fief": "韩（开原，后移平凉）",
+    "detail": "洪武二十四年封韩王，未就藩而卒，谥「宪」，其后嗣就藩平凉。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百十八·诸王传三"
+      }
+    ]
   },
   {
     "id": "taizu-s21",
@@ -187,7 +351,15 @@
     "order": 21,
     "orderLabel": "二十一子",
     "name": "朱模",
-    "title": "沈王"
+    "title": "沈王",
+    "fief": "沈（潞州）",
+    "detail": "洪武二十四年封沈王，永乐六年就藩潞州。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百十八·诸王传三"
+      }
+    ]
   },
   {
     "id": "taizu-s22",
@@ -196,7 +368,15 @@
     "order": 22,
     "orderLabel": "二十二子",
     "name": "朱楹",
-    "title": "安王"
+    "title": "安王",
+    "fief": "安（平凉）",
+    "detail": "洪武二十四年封安王，永乐六年就藩平凉，无子国除。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百十八·诸王传三"
+      }
+    ]
   },
   {
     "id": "taizu-s23",
@@ -205,7 +385,15 @@
     "order": 23,
     "orderLabel": "二十三子",
     "name": "朱桱",
-    "title": "唐王"
+    "title": "唐王",
+    "fief": "唐（南阳）",
+    "detail": "洪武二十四年封唐王，永乐六年就藩南阳。其九世孙朱聿键、朱聿鐭即南明隆武、绍武二帝。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百十八·诸王传三"
+      }
+    ]
   },
   {
     "id": "taizu-s24",
@@ -214,7 +402,16 @@
     "order": 24,
     "orderLabel": "二十四子",
     "name": "朱栋",
-    "title": "郢王"
+    "title": "郢王",
+    "life": "1388 — 1414",
+    "fief": "郢（安陆）",
+    "detail": "洪武二十四年封郢王，永乐六年就藩安陆，永乐十二年卒，无子国除。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百十八·诸王传三"
+      }
+    ]
   },
   {
     "id": "taizu-s25",
@@ -223,7 +420,16 @@
     "order": 25,
     "orderLabel": "二十五子",
     "name": "朱木彝",
-    "title": "伊王"
+    "title": "伊王",
+    "life": "1388 — 1414",
+    "fief": "伊（洛阳）",
+    "detail": "洪武二十四年封伊王，永乐六年就藩洛阳。多行不法，永乐十二年卒，谥「厉」。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百十八·诸王传三"
+      }
+    ]
   },
   {
     "id": "taizu-s26",
@@ -232,7 +438,16 @@
     "order": 26,
     "orderLabel": "二十六子",
     "name": "朱",
-    "title": "未封王"
+    "title": "未封王",
+    "life": "1394 — 1394",
+    "fief": "未封王",
+    "detail": "太祖第二十六子，洪武二十七年生，未逾月而夭，未及封爵。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百十六·诸王传一"
+      }
+    ]
   },
   {
     "id": "huidi-s1",
@@ -241,7 +456,15 @@
     "order": 1,
     "orderLabel": "长子",
     "name": "朱文奎",
-    "title": "和简太子"
+    "title": "和简太子",
+    "fief": "和简太子",
+    "detail": "建文元年立为皇太子。南京城破时年方七岁，与父一同不知所终。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百十八·诸王传三"
+      }
+    ]
   },
   {
     "id": "huidi-s2",
@@ -250,7 +473,15 @@
     "order": 2,
     "orderLabel": "次子",
     "name": "朱文圭",
-    "title": "润怀王"
+    "title": "润怀王",
+    "fief": "润怀王",
+    "detail": "建文三年生。南京陷落后被幽禁中都凤阳五十余年，称「建庶人」。天顺元年英宗释之，未几卒。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百十八·诸王传三"
+      }
+    ]
   },
   {
     "id": "chengzu-s1",
@@ -260,7 +491,15 @@
     "orderLabel": "长子",
     "name": "朱高炽",
     "title": "太子",
-    "isEmperor": true
+    "isEmperor": true,
+    "fief": "太子 → 即位",
+    "detail": "成祖长子，永乐二年立为皇太子，多受命监国。永乐二十二年即位，是为仁宗。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷八·仁宗本纪"
+      }
+    ]
   },
   {
     "id": "chengzu-s2",
@@ -269,7 +508,16 @@
     "order": 2,
     "orderLabel": "次子",
     "name": "朱高煦",
-    "title": "汉王"
+    "title": "汉王",
+    "life": "1380 — 1426",
+    "fief": "汉（乐安州）",
+    "detail": "成祖次子，靖难之役中屡立战功，恃功骄纵。永乐十五年就藩乐安州，宣德元年举兵反，宣宗亲征俘之，废为庶人，后以铜缸覆之、积炭炙死。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百十八·诸王传三"
+      }
+    ]
   },
   {
     "id": "chengzu-s3",
@@ -278,7 +526,15 @@
     "order": 3,
     "orderLabel": "三子",
     "name": "朱高燧",
-    "title": "赵王"
+    "title": "赵王",
+    "fief": "赵（彰德）",
+    "detail": "成祖第三子，永乐二年封赵王，就藩彰德。永乐末曾涉谋逆之议，宣德朝又被告发谋反，得宣宗宽宥，以善终。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百十八·诸王传三"
+      }
+    ]
   },
   {
     "id": "chengzu-s4",
@@ -287,7 +543,15 @@
     "order": 4,
     "orderLabel": "四子",
     "name": "朱高烯",
-    "title": "未封王"
+    "title": "未封王",
+    "fief": "未封王",
+    "detail": "成祖第四子，幼卒，未及封爵。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百十八·诸王传三"
+      }
+    ]
   },
   {
     "id": "renzong-s1",
@@ -297,7 +561,15 @@
     "orderLabel": "长子",
     "name": "朱瞻基",
     "title": "太子",
-    "isEmperor": true
+    "isEmperor": true,
+    "fief": "太子 → 即位",
+    "detail": "仁宗长子，永乐九年立为皇太孙，洪熙元年即位，是为宣宗。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷九·宣宗本纪"
+      }
+    ]
   },
   {
     "id": "renzong-s2",
@@ -306,7 +578,15 @@
     "order": 2,
     "orderLabel": "次子",
     "name": "朱瞻埈",
-    "title": "郑靖王"
+    "title": "郑靖王",
+    "fief": "郑（凤翔，后移怀庆）",
+    "detail": "仁宗次子，洪熙元年封郑王，宣德四年就藩凤翔，正统八年移藩怀庆。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百十九·诸王传四"
+      }
+    ]
   },
   {
     "id": "renzong-s3",
@@ -315,7 +595,15 @@
     "order": 3,
     "orderLabel": "三子",
     "name": "朱瞻墉",
-    "title": "越靖王"
+    "title": "越靖王",
+    "fief": "越（未就藩）",
+    "detail": "仁宗第三子，洪熙元年封越王，未就藩而卒，谥「靖」。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百十九·诸王传四"
+      }
+    ]
   },
   {
     "id": "renzong-s4",
@@ -324,7 +612,15 @@
     "order": 4,
     "orderLabel": "四子",
     "name": "朱瞻垠",
-    "title": "蕲献王"
+    "title": "蕲献王",
+    "fief": "蕲（未就藩）",
+    "detail": "仁宗第四子，早卒，追封蕲王，谥「献」。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百十九·诸王传四"
+      }
+    ]
   },
   {
     "id": "renzong-s5",
@@ -333,7 +629,15 @@
     "order": 5,
     "orderLabel": "五子",
     "name": "朱瞻墡",
-    "title": "襄宪王"
+    "title": "襄宪王",
+    "fief": "襄（长沙，后移襄阳）",
+    "detail": "仁宗第五子，宣德四年就藩长沙，正统元年移襄阳。历事六朝，正统、景泰、天顺间多次入朝觐见，号为「贤王」。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百十九·诸王传四"
+      }
+    ]
   },
   {
     "id": "renzong-s6",
@@ -342,7 +646,15 @@
     "order": 6,
     "orderLabel": "六子",
     "name": "朱瞻堈",
-    "title": "荆宪王"
+    "title": "荆宪王",
+    "fief": "荆（建昌，后移蕲州）",
+    "detail": "仁宗第六子，宣德四年就藩建昌，正统十年移蕲州。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百十九·诸王传四"
+      }
+    ]
   },
   {
     "id": "renzong-s7",
@@ -351,7 +663,15 @@
     "order": 7,
     "orderLabel": "七子",
     "name": "朱瞻墺",
-    "title": "淮靖王"
+    "title": "淮靖王",
+    "fief": "淮（韶州，后移饶州）",
+    "detail": "仁宗第七子，宣德四年就藩韶州，正统元年移饶州。其九世孙朱常清即南明「东武」监国。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百十九·诸王传四"
+      }
+    ]
   },
   {
     "id": "renzong-s8",
@@ -360,7 +680,15 @@
     "order": 8,
     "orderLabel": "八子",
     "name": "朱瞻垲",
-    "title": "滕淮王"
+    "title": "滕淮王",
+    "fief": "滕（未就藩）",
+    "detail": "仁宗第八子，封滕王，未就藩而卒。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百十九·诸王传四"
+      }
+    ]
   },
   {
     "id": "renzong-s9",
@@ -369,7 +697,15 @@
     "order": 9,
     "orderLabel": "九子",
     "name": "朱瞻垍",
-    "title": "梁庄王"
+    "title": "梁庄王",
+    "fief": "梁（安陆）",
+    "detail": "仁宗第九子，永乐二十二年封梁王，宣德四年就藩安陆。其墓 2001 年发掘，出土金玉器物数千件，为明代亲王墓的重要发现。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百十九·诸王传四"
+      }
+    ]
   },
   {
     "id": "renzong-s10",
@@ -378,7 +714,15 @@
     "order": 10,
     "orderLabel": "十子",
     "name": "朱膽埏",
-    "title": "卫恭王"
+    "title": "卫恭王",
+    "fief": "卫（怀庆）",
+    "detail": "仁宗第十子，封卫王，就藩怀庆。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百十九·诸王传四"
+      }
+    ]
   },
   {
     "id": "xuanzong-s1",
@@ -388,7 +732,15 @@
     "orderLabel": "长子",
     "name": "朱祁镇",
     "title": "太子",
-    "isEmperor": true
+    "isEmperor": true,
+    "fief": "太子 → 即位",
+    "detail": "宣宗长子，宣德三年立为皇太子，宣德十年即位，是为英宗。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷十·英宗前纪"
+      }
+    ]
   },
   {
     "id": "xuanzong-s2",
@@ -398,7 +750,15 @@
     "orderLabel": "次子",
     "name": "朱祁钰",
     "title": "郕王",
-    "isEmperor": true
+    "isEmperor": true,
+    "fief": "郕王 → 即位",
+    "detail": "宣宗次子，宣德十年封郕王。土木之变后受命监国、旋即帝位，是为代宗。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷十一·景帝本纪"
+      }
+    ]
   },
   {
     "id": "yingzong-s1",
@@ -408,7 +768,15 @@
     "orderLabel": "长子",
     "name": "朱见深",
     "title": "太子",
-    "isEmperor": true
+    "isEmperor": true,
+    "fief": "太子 → 即位",
+    "detail": "英宗长子，正统十四年立为皇太子，景泰三年被代宗废为沂王，天顺元年复立，天顺八年即位，是为宪宗。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷十三·宪宗一"
+      }
+    ]
   },
   {
     "id": "yingzong-s2",
@@ -417,7 +785,15 @@
     "order": 2,
     "orderLabel": "次子",
     "name": "朱见瀵",
-    "title": "德庄王"
+    "title": "德庄王",
+    "fief": "德（济南）",
+    "detail": "英宗次子，天顺元年封德王，成化三年就藩济南。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百十九·诸王传四"
+      }
+    ]
   },
   {
     "id": "yingzong-s3",
@@ -426,7 +802,15 @@
     "order": 3,
     "orderLabel": "三子",
     "name": "朱见湜",
-    "note": "早夭"
+    "note": "早夭",
+    "fief": "未封",
+    "detail": "英宗第三子，二岁夭折，未及封爵。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百十九·诸王传四"
+      }
+    ]
   },
   {
     "id": "yingzong-s4",
@@ -435,7 +819,15 @@
     "order": 4,
     "orderLabel": "四子",
     "name": "朱见淳",
-    "title": "许悼王"
+    "title": "许悼王",
+    "fief": "许（未就藩）",
+    "detail": "英宗第四子，早卒，追封许王，谥「悼」。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百十九·诸王传四"
+      }
+    ]
   },
   {
     "id": "yingzong-s5",
@@ -444,7 +836,15 @@
     "order": 5,
     "orderLabel": "五子",
     "name": "朱见澍",
-    "title": "秀怀王"
+    "title": "秀怀王",
+    "fief": "秀（汝宁）",
+    "detail": "英宗第五子，成化六年就藩汝宁。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百十九·诸王传四"
+      }
+    ]
   },
   {
     "id": "yingzong-s6",
@@ -453,7 +853,15 @@
     "order": 6,
     "orderLabel": "六子",
     "name": "朱见泽",
-    "title": "崇简王"
+    "title": "崇简王",
+    "fief": "崇（汝宁）",
+    "detail": "英宗第六子，成化十年就藩汝宁。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百十九·诸王传四"
+      }
+    ]
   },
   {
     "id": "yingzong-s7",
@@ -462,7 +870,15 @@
     "order": 7,
     "orderLabel": "七子",
     "name": "朱见浚",
-    "title": "吉简王"
+    "title": "吉简王",
+    "fief": "吉（长沙）",
+    "detail": "英宗第七子，成化十三年就藩长沙。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百十九·诸王传四"
+      }
+    ]
   },
   {
     "id": "yingzong-s8",
@@ -471,7 +887,15 @@
     "order": 8,
     "orderLabel": "八子",
     "name": "朱见治",
-    "title": "忻穆王"
+    "title": "忻穆王",
+    "fief": "忻（未就藩）",
+    "detail": "英宗第八子，未就藩而卒，谥「穆」。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百十九·诸王传四"
+      }
+    ]
   },
   {
     "id": "yingzong-s9",
@@ -480,7 +904,15 @@
     "order": 9,
     "orderLabel": "九子",
     "name": "朱见沛",
-    "title": "徽庄王"
+    "title": "徽庄王",
+    "fief": "徽（钧州）",
+    "detail": "英宗第九子，成化十七年就藩钧州。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百十九·诸王传四"
+      }
+    ]
   },
   {
     "id": "daizong-s3",
@@ -489,7 +921,15 @@
     "order": 3,
     "orderLabel": "世子",
     "name": "朱见济",
-    "title": "郕王世子"
+    "title": "郕王世子",
+    "fief": "郕王世子 → 皇太子",
+    "detail": "代宗独子。景泰三年立为皇太子，次年夭折，谥「怀献」。其死使代宗无嗣，为夺门之变与英宗复辟埋下伏笔。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷十一·景帝本纪"
+      }
+    ]
   },
   {
     "id": "xianzong-s1",
@@ -498,7 +938,15 @@
     "order": 1,
     "orderLabel": "长子",
     "name": "",
-    "note": "早夭"
+    "note": "早夭",
+    "fief": "未封",
+    "detail": "宪宗长子，未及命名而夭。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百十九·诸王传四"
+      }
+    ]
   },
   {
     "id": "xianzong-s2",
@@ -507,7 +955,15 @@
     "order": 2,
     "orderLabel": "次子",
     "name": "朱祐极",
-    "title": "悼恭太子"
+    "title": "悼恭太子",
+    "fief": "悼恭太子",
+    "detail": "宪宗次子，成化七年立为皇太子，次年夭折。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百十九·诸王传四"
+      }
+    ]
   },
   {
     "id": "xianzong-s3",
@@ -516,7 +972,15 @@
     "order": 3,
     "orderLabel": "三子",
     "name": "朱祐樘",
-    "title": "太子"
+    "title": "太子",
+    "fief": "太子 → 即位",
+    "detail": "宪宗第三子，成化十一年立为皇太子，成化二十三年即位，是为孝宗。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷十五·孝宗本纪"
+      }
+    ]
   },
   {
     "id": "xianzong-s4",
@@ -525,7 +989,16 @@
     "order": 4,
     "orderLabel": "四子",
     "name": "朱祐杬",
-    "title": "兴献王"
+    "title": "兴献王",
+    "life": "1476 — 1519",
+    "fief": "兴（安陆）",
+    "detail": "宪宗第四子，成化二十三年封兴王，弘治七年就藩安陆。其子朱厚熜入继大统，即世宗，遂被追尊为「睿宗兴献皇帝」，并引发大礼议。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百十五·睿宗兴献皇帝"
+      }
+    ]
   },
   {
     "id": "xianzong-s5",
@@ -534,7 +1007,15 @@
     "order": 5,
     "orderLabel": "五子",
     "name": "朱祐榆",
-    "title": "岐惠王"
+    "title": "岐惠王",
+    "fief": "岐（德安）",
+    "detail": "宪宗第五子，弘治八年就藩德安。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百十九·诸王传四"
+      }
+    ]
   },
   {
     "id": "xianzong-s6",
@@ -543,7 +1024,15 @@
     "order": 6,
     "orderLabel": "六子",
     "name": "朱祐槟",
-    "title": "益端王"
+    "title": "益端王",
+    "fief": "益（建昌）",
+    "detail": "宪宗第六子，弘治八年就藩建昌。其府藏书极富、刻书甚多，为明代藩府刻书重镇。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百十九·诸王传四"
+      }
+    ]
   },
   {
     "id": "xianzong-s7",
@@ -552,7 +1041,15 @@
     "order": 7,
     "orderLabel": "七子",
     "name": "朱祐輝",
-    "title": "衡恭王"
+    "title": "衡恭王",
+    "fief": "衡（青州）",
+    "detail": "宪宗第七子，弘治十三年就藩青州。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百十九·诸王传四"
+      }
+    ]
   },
   {
     "id": "xianzong-s8",
@@ -561,7 +1058,15 @@
     "order": 8,
     "orderLabel": "八子",
     "name": "朱祐坛",
-    "title": "雍靖王"
+    "title": "雍靖王",
+    "fief": "雍（衡州）",
+    "detail": "宪宗第八子，弘治十二年就藩衡州。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百十九·诸王传四"
+      }
+    ]
   },
   {
     "id": "xianzong-s9",
@@ -579,7 +1084,15 @@
     "order": 10,
     "orderLabel": "十子",
     "name": "",
-    "note": "早夭"
+    "note": "早夭",
+    "fief": "未封",
+    "detail": "宪宗第十子，早夭，未及命名。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百十九·诸王传四"
+      }
+    ]
   },
   {
     "id": "xianzong-s11",
@@ -625,7 +1138,15 @@
     "orderLabel": "长子",
     "name": "朱厚照",
     "title": "太子",
-    "isEmperor": true
+    "isEmperor": true,
+    "fief": "太子 → 即位",
+    "detail": "孝宗长子，弘治五年立为皇太子，弘治十八年即位，是为武宗。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷十六·武宗本纪"
+      }
+    ]
   },
   {
     "id": "xiaozong-s2",
@@ -634,7 +1155,15 @@
     "order": 2,
     "orderLabel": "次子",
     "name": "朱厚炜",
-    "note": "早夭"
+    "note": "早夭",
+    "fief": "蔚（未就藩）",
+    "detail": "孝宗次子，三岁夭折，追封蔚王，谥「悼」。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百十九·诸王传四"
+      }
+    ]
   },
   {
     "id": "shizong-s1",
@@ -643,7 +1172,15 @@
     "order": 1,
     "orderLabel": "长子",
     "name": "朱载基",
-    "title": "哀冲太子"
+    "title": "哀冲太子",
+    "fief": "哀冲太子",
+    "detail": "世宗长子，生两月而夭，追封哀冲太子。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百二十·诸王传五"
+      }
+    ]
   },
   {
     "id": "shizong-s2",
@@ -652,7 +1189,16 @@
     "order": 2,
     "orderLabel": "二子",
     "name": "朱载壡",
-    "title": "庄敬太子"
+    "title": "庄敬太子",
+    "life": "1536 — 1549",
+    "fief": "庄敬太子",
+    "detail": "世宗次子，嘉靖十八年立为皇太子。嘉靖二十八年行冠礼后二日病卒，年十四。其死使世宗久不立储，景王与裕王之争遂起。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百二十·诸王传五"
+      }
+    ]
   },
   {
     "id": "shizong-s3",
@@ -662,7 +1208,15 @@
     "orderLabel": "三子",
     "name": "朱载垕",
     "title": "裕王、太子",
-    "isEmperor": true
+    "isEmperor": true,
+    "fief": "裕王 → 即位",
+    "detail": "世宗第三子，嘉靖十八年封裕王，嘉靖四十五年即位，是为穆宗。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷十九·穆宗本纪"
+      }
+    ]
   },
   {
     "id": "shizong-s4",
@@ -671,7 +1225,16 @@
     "order": 4,
     "orderLabel": "四子",
     "name": "朱载圳",
-    "title": "景恭王"
+    "title": "景恭王",
+    "life": "1537 — 1565",
+    "fief": "景（德安）",
+    "detail": "世宗第四子，嘉靖十八年封景王。太子朱载壡死后与裕王争位，朝议纷纭。嘉靖四十年就藩德安，四十四年卒，无子国除。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百二十·诸王传五"
+      }
+    ]
   },
   {
     "id": "shizong-s5",
@@ -680,7 +1243,15 @@
     "order": 5,
     "orderLabel": "五子",
     "name": "",
-    "note": "早夭"
+    "note": "早夭",
+    "fief": "未封",
+    "detail": "世宗第五子，早夭，未及命名。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百二十·诸王传五"
+      }
+    ]
   },
   {
     "id": "shizong-s6",
@@ -688,7 +1259,15 @@
     "emperorName": "世宗",
     "order": 6,
     "orderLabel": "六子",
-    "name": "朱载<憂斗土>戚怀王"
+    "name": "朱载<憂斗土>戚怀王",
+    "fief": "戚（未就藩）",
+    "detail": "世宗第六子，早卒，追封戚王，谥「怀」。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百二十·诸王传五"
+      }
+    ]
   },
   {
     "id": "shizong-s7",
@@ -697,7 +1276,15 @@
     "order": 7,
     "orderLabel": "七子",
     "name": "朱载壇",
-    "title": "蓟哀王"
+    "title": "蓟哀王",
+    "fief": "蓟（未就藩）",
+    "detail": "世宗第七子，早卒，追封蓟王，谥「哀」。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百二十·诸王传五"
+      }
+    ]
   },
   {
     "id": "shizong-s8",
@@ -705,7 +1292,15 @@
     "emperorName": "世宗",
     "order": 8,
     "orderLabel": "八子",
-    "name": "朱载<土夙>均思王"
+    "name": "朱载<土夙>均思王",
+    "fief": "均（未就藩）",
+    "detail": "世宗第八子，早卒，追封均王，谥「思」。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百二十·诸王传五"
+      }
+    ]
   },
   {
     "id": "muzong-s1",
@@ -714,7 +1309,15 @@
     "order": 1,
     "orderLabel": "长子",
     "name": "朱翊武",
-    "title": "宪怀太子"
+    "title": "宪怀太子",
+    "fief": "宪怀太子",
+    "detail": "穆宗长子，五岁夭折，追封宪怀太子。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百二十·诸王传五"
+      }
+    ]
   },
   {
     "id": "muzong-s2",
@@ -723,7 +1326,15 @@
     "order": 2,
     "orderLabel": "二子",
     "name": "朱翊铃",
-    "note": "早夭"
+    "note": "早夭",
+    "fief": "未封",
+    "detail": "穆宗次子，早夭。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百二十·诸王传五"
+      }
+    ]
   },
   {
     "id": "muzong-s3",
@@ -733,7 +1344,15 @@
     "orderLabel": "三子",
     "name": "朱翊钧",
     "title": "太子",
-    "isEmperor": true
+    "isEmperor": true,
+    "fief": "太子 → 即位",
+    "detail": "穆宗第三子，隆庆二年立为皇太子，隆庆六年即位，是为神宗。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷二十·神宗一"
+      }
+    ]
   },
   {
     "id": "muzong-s4",
@@ -742,7 +1361,15 @@
     "order": 4,
     "orderLabel": "四子",
     "name": "朱翊缪",
-    "title": "潞简王"
+    "title": "潞简王",
+    "fief": "潞（卫辉）",
+    "detail": "穆宗第四子，隆庆五年封潞王，万历十七年就藩卫辉。其墓在河南新乡，为明代藩王墓中保存较完整者。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百二十·诸王传五"
+      }
+    ]
   },
   {
     "id": "shenzong-s1",
@@ -752,7 +1379,15 @@
     "orderLabel": "长子",
     "name": "朱常洛",
     "title": "太子",
-    "isEmperor": true
+    "isEmperor": true,
+    "fief": "太子 → 即位",
+    "detail": "神宗长子，母王氏。万历二十九年立为皇太子，万历四十八年即位，是为光宗。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷二十二·光宗本纪"
+      }
+    ]
   },
   {
     "id": "shenzong-s2",
@@ -761,7 +1396,15 @@
     "order": 2,
     "orderLabel": "次子",
     "name": "朱常溆",
-    "title": "邠哀王"
+    "title": "邠哀王",
+    "fief": "邠（未就藩）",
+    "detail": "神宗次子，生而夭，追封邠王，谥「哀」。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百二十·诸王传五"
+      }
+    ]
   },
   {
     "id": "shenzong-s3",
@@ -770,7 +1413,15 @@
     "order": 3,
     "orderLabel": "三子",
     "name": "朱常洵",
-    "title": "福忠王"
+    "title": "福忠王",
+    "fief": "福（洛阳）",
+    "detail": "神宗第三子，母郑贵妃，最得神宗宠爱，国本之争即围绕其立储而起。万历二十九年封福王，四十二年就藩洛阳。崇祯十四年李自成破洛阳时被杀。其子朱由崧即南明弘光帝。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百二十·诸王传五"
+      }
+    ]
   },
   {
     "id": "shenzong-s4",
@@ -779,7 +1430,15 @@
     "order": 4,
     "orderLabel": "四子",
     "name": "朱常治",
-    "note": "早夭"
+    "note": "早夭",
+    "fief": "未封",
+    "detail": "神宗第四子，早夭。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百二十·诸王传五"
+      }
+    ]
   },
   {
     "id": "shenzong-s5",
@@ -788,7 +1447,15 @@
     "order": 5,
     "orderLabel": "五子",
     "name": "朱常浩",
-    "title": "瑞王"
+    "title": "瑞王",
+    "fief": "瑞（汉中）",
+    "detail": "神宗第五子，天启七年就藩汉中。崇祯十七年张献忠破重庆时被杀。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百二十·诸王传五"
+      }
+    ]
   },
   {
     "id": "shenzong-s6",
@@ -797,7 +1464,15 @@
     "order": 6,
     "orderLabel": "六子",
     "name": "朱常润",
-    "title": "惠王"
+    "title": "惠王",
+    "fief": "惠（荆州）",
+    "detail": "神宗第六子，天启七年就藩荆州。崇祯末为张献忠所俘，后死于北京。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百二十·诸王传五"
+      }
+    ]
   },
   {
     "id": "shenzong-s7",
@@ -806,7 +1481,15 @@
     "order": 7,
     "orderLabel": "七子",
     "name": "朱常瀛",
-    "title": "桂端王"
+    "title": "桂端王",
+    "fief": "桂（衡州）",
+    "detail": "神宗第七子，天启七年就藩衡州。崇祯十六年张献忠破衡州，走广西，隆武元年卒于梧州。其子朱由榔即南明永历帝。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百二十·诸王传五"
+      }
+    ]
   },
   {
     "id": "shenzong-s8",
@@ -815,7 +1498,15 @@
     "order": 8,
     "orderLabel": "八子",
     "name": "朱常溥",
-    "note": "早夭"
+    "note": "早夭",
+    "fief": "未封",
+    "detail": "神宗第八子，早夭。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百二十·诸王传五"
+      }
+    ]
   },
   {
     "id": "guangzong-s1",
@@ -825,7 +1516,15 @@
     "orderLabel": "长子",
     "name": "朱由校",
     "title": "太子",
-    "isEmperor": true
+    "isEmperor": true,
+    "fief": "太子 → 即位",
+    "detail": "光宗长子，泰昌元年立为皇太子，同年即位，是为熹宗。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷二十二·熹宗本纪"
+      }
+    ]
   },
   {
     "id": "guangzong-s2",
@@ -834,7 +1533,15 @@
     "order": 2,
     "orderLabel": "次子",
     "name": "朱由㰒",
-    "title": "简怀王"
+    "title": "简怀王",
+    "fief": "简（未就藩）",
+    "detail": "光宗次子，早卒，追封简王，谥「怀」。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百二十·诸王传五"
+      }
+    ]
   },
   {
     "id": "guangzong-s3",
@@ -843,7 +1550,15 @@
     "order": 3,
     "orderLabel": "三子",
     "name": "朱由楫",
-    "title": "齐思王"
+    "title": "齐思王",
+    "fief": "齐（未就藩）",
+    "detail": "光宗第三子，早卒，追封齐王，谥「思」。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百二十·诸王传五"
+      }
+    ]
   },
   {
     "id": "guangzong-s4",
@@ -852,7 +1567,15 @@
     "order": 4,
     "orderLabel": "四子",
     "name": "朱由模",
-    "note": "早夭"
+    "note": "早夭",
+    "fief": "未封",
+    "detail": "光宗第四子，早夭。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百二十·诸王传五"
+      }
+    ]
   },
   {
     "id": "guangzong-s5",
@@ -862,7 +1585,15 @@
     "orderLabel": "五子",
     "name": "朱由检",
     "title": "信王",
-    "isEmperor": true
+    "isEmperor": true,
+    "fief": "信王 → 即位",
+    "detail": "光宗第五子，天启二年封信王。天启七年熹宗无嗣，以「兄终弟及」入继大统，是为思宗。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷二十四·庄烈帝本纪"
+      }
+    ]
   },
   {
     "id": "guangzong-s6",
@@ -871,7 +1602,15 @@
     "order": 6,
     "orderLabel": "六子",
     "name": "朱由栩",
-    "title": "湘怀王"
+    "title": "湘怀王",
+    "fief": "湘（未就藩）",
+    "detail": "光宗第六子，早卒，追封湘王，谥「怀」。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百二十·诸王传五"
+      }
+    ]
   },
   {
     "id": "guangzong-s7",
@@ -880,7 +1619,15 @@
     "order": 7,
     "orderLabel": "七子",
     "name": "朱由橏",
-    "title": "惠昭王"
+    "title": "惠昭王",
+    "fief": "惠（未就藩）",
+    "detail": "光宗第七子，早卒，追封惠王，谥「昭」。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百二十·诸王传五"
+      }
+    ]
   },
   {
     "id": "xizong-s1",
@@ -889,7 +1636,15 @@
     "order": 1,
     "orderLabel": "长子",
     "name": "朱慈燃",
-    "note": "早夭"
+    "note": "早夭",
+    "fief": "未封",
+    "detail": "熹宗长子，早夭。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百二十·诸王传五"
+      }
+    ]
   },
   {
     "id": "xizong-s2",
@@ -898,7 +1653,15 @@
     "order": 2,
     "orderLabel": "次子",
     "name": "朱慈",
-    "note": "早夭"
+    "note": "早夭",
+    "fief": "未封",
+    "detail": "熹宗次子，早夭。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百二十·诸王传五"
+      }
+    ]
   },
   {
     "id": "xizong-s3",
@@ -907,7 +1670,15 @@
     "order": 3,
     "orderLabel": "三子",
     "name": "朱慈炅",
-    "note": "早夭"
+    "note": "早夭",
+    "fief": "未封",
+    "detail": "熹宗第三子，早夭。熹宗三子皆不育，故皇位由信王朱由检入继。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百二十·诸王传五"
+      }
+    ]
   },
   {
     "id": "sizong-s1",
@@ -916,7 +1687,15 @@
     "order": 1,
     "orderLabel": "长子",
     "name": "朱慈烺",
-    "title": "献感太子"
+    "title": "献感太子",
+    "fief": "献愍太子",
+    "detail": "思宗长子，崇祯二年立为皇太子。北京陷落后为李自成所俘，此后不知所终。南明弘光朝追谥「献愍太子」。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百二十·诸王传五"
+      }
+    ]
   },
   {
     "id": "sizong-s2",
@@ -925,7 +1704,15 @@
     "order": 2,
     "orderLabel": "次子",
     "name": "朱慈垣",
-    "title": "怀隐王"
+    "title": "怀隐王",
+    "fief": "怀隐王",
+    "detail": "思宗次子，早卒。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百二十·诸王传五"
+      }
+    ]
   },
   {
     "id": "sizong-s3",
@@ -934,7 +1721,15 @@
     "order": 3,
     "orderLabel": "三子",
     "name": "朱慈炯",
-    "title": "定哀王"
+    "title": "定哀王",
+    "fief": "定（未就藩）",
+    "detail": "思宗第三子，崇祯十四年封定王。北京陷落后不知所终，南明追谥「哀」。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百二十·诸王传五"
+      }
+    ]
   },
   {
     "id": "sizong-s4",
@@ -943,7 +1738,15 @@
     "order": 4,
     "orderLabel": "四子",
     "name": "朱慈照",
-    "title": "永悼王"
+    "title": "永悼王",
+    "fief": "永（未就藩）",
+    "detail": "思宗第四子，早卒，追封永王，谥「悼」。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百二十·诸王传五"
+      }
+    ]
   },
   {
     "id": "sizong-s5",
@@ -952,7 +1755,15 @@
     "order": 5,
     "orderLabel": "五子",
     "name": "朱慈焕",
-    "title": "悼灵王"
+    "title": "悼灵王",
+    "fief": "悼灵王",
+    "detail": "思宗第五子，五岁病卒，思宗甚痛之。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百二十·诸王传五"
+      }
+    ]
   },
   {
     "id": "sizong-s6",
@@ -961,7 +1772,15 @@
     "order": 6,
     "orderLabel": "六子",
     "name": "朱慈灿",
-    "title": "悼怀王"
+    "title": "悼怀王",
+    "fief": "悼怀王",
+    "detail": "思宗第六子，早卒。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百二十·诸王传五"
+      }
+    ]
   },
   {
     "id": "sizong-s7",
@@ -971,6 +1790,14 @@
     "orderLabel": "七子",
     "name": "",
     "title": "悼良王",
-    "note": "早夭"
+    "note": "早夭",
+    "fief": "悼良王",
+    "detail": "思宗第七子，早夭，未及命名。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一百二十·诸王传五"
+      }
+    ]
   }
 ]

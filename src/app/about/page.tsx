@@ -1,17 +1,19 @@
-import { FileSpreadsheet, GitBranch, Layers, ShieldQuestion } from 'lucide-react';
+import { FileSpreadsheet, GitBranch, Layers, PenLine, ShieldQuestion } from 'lucide-react';
 import type { Metadata } from 'next';
+import SourceList from '@/components/ui/source-list';
 import { PageHeader, SectionTitle } from '@/components/ui/page-header';
-import { getStats, meta } from '@/lib/data';
+import { emperors, getStats, institutions, meta } from '@/lib/data';
 
 export const metadata: Metadata = {
   title: '关于数据',
-  description: '数据来源、字段口径、目录结构与校正方式说明。',
+  description: '数据来源、编者注机制、史料出处与校正方式说明。',
 };
 
 const PIPELINE = [
-  { icon: FileSpreadsheet, title: '原始表格', desc: 'data/raw 下的 Excel，含帝王正朔、子嗣、官职三大主表与散阶、勋级、科举、字辈等附表。' },
+  { icon: FileSpreadsheet, title: '原始表格', desc: 'data/raw 下的 Excel，含帝王正朔、子嗣、官职三大主表与散阶、勋级、科举、字辈等附表，是结构的唯一来源。' },
   { icon: Layers, title: 'ETL 抽取', desc: 'scripts/etl 解析合并单元格、归并衙门、推导关系边，输出 src/data 下的结构化 JSON。' },
-  { icon: ShieldQuestion, title: '一致性校验', desc: 'pnpm data:check 校验关系边悬空引用、品级可解析性、在位区间与序位连续性。' },
+  { icon: PenLine, title: '编者注合并', desc: 'data/supplement 下人工维护的生卒、陵寝、生平概述与制度释义，按 id 并入主数据；文件缺失时自动跳过。' },
+  { icon: ShieldQuestion, title: '一致性校验', desc: 'pnpm data:check 校验悬空引用、品级可解析性、编者注 id 有效性、概述字数与出处链接格式。' },
   { icon: GitBranch, title: '静态导出', desc: 'Next.js 全静态导出，页面在构建期预渲染，可直接托管到任意静态服务器。' },
 ];
 
@@ -21,7 +23,20 @@ const NOTES = [
   '世宗朱厚熜、惠帝朱允炆、安宗朱由崧、昭宗朱由榔之父为宗室亲王（朱祐杬、朱标、朱常洵、朱常瀛），图中以宗室节点连接。',
   '武散阶在源表止于从六品，与文散阶十八阶不同，这是明代制度本身的特点，非遗漏。',
   '个别皇子名讳含生僻造字，按原表字符保留。',
+  '生卒年、陵寝、生平概述与制度释义属编者注，非原始表格内容，均单独存放于 data/supplement 并标注出处。',
+  '南明诸帝陵寝记载零散，多处无考或有异说，本站以「葬处无考」「一说」等保守表述处理，不作定论。',
+  '皇子的生卒年仅在史料有明确记载时填写；其余只补封国与事迹，宁可留白也不臆造。',
+  '出处以「书名 + 卷次」为准；外链仅在实测可访问时提供，取不到正文或需登录的来源一律只列书名。',
 ];
+
+/** 汇总全部引用书目 */
+function collectSources() {
+  const all = [
+    ...emperors.flatMap((emperor) => emperor.sources ?? []),
+    ...institutions.notes.flatMap((note) => note.sources),
+  ];
+  return Array.from(new Map(all.map((source) => [source.book, source])).values());
+}
 
 export default function AboutPage() {
   const stats = getStats();
@@ -31,7 +46,7 @@ export default function AboutPage() {
       <PageHeader
         eyebrow="关于"
         title="关于数据"
-        description="本站是对一份史料表格的结构化重编。所有内容均从原始表格抽取，未作史实增补；如发现异文或错漏，欢迎按下方流程校正。"
+        description="本站以一份史料表格为结构底本，另设「编者注」数据集，依据《明史》等史料补注帝王的生卒年、陵寝与生平概述，以及封爵、散阶等制度的术语释义。所有补注均标注书名与卷次，可逐条核验。"
       />
 
       <div className="mx-auto max-w-7xl px-4">
@@ -73,6 +88,21 @@ export default function AboutPage() {
                 </li>
               ))}
             </ul>
+          </div>
+        </section>
+
+        <section className="mt-10">
+          <SectionTitle
+            title="资料来源"
+            hint="编者注所引书目；带「在线核验」者可点击跳转，其余仅列书名卷次"
+          />
+          <div className="surface p-5">
+            <SourceList sources={collectSources()} />
+            <p className="mt-4 text-xs leading-relaxed text-ink-faint dark:text-white/45">
+              《明史》为清代官修纪传体正史，帝纪与诸王传是本站帝王、宗室条目的主要依据；
+              制度释义另参《明会典》。南明诸帝不入《明史》本纪，相关记载多出后世专书与地方志，
+              故在正文中并列异说，不做单一结论。
+            </p>
           </div>
         </section>
 

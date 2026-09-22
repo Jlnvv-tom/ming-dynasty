@@ -13,10 +13,17 @@ import { parseEmperors, parsePrinces, buildRelations } from './parse-emperors';
 import { parseInstitutions } from './parse-institutions';
 import { parsePosts } from './parse-posts';
 import { loadSheet } from './sheet';
+import {
+  applyEmperorSupplement,
+  applyPrinceSupplement,
+  coverage,
+  loadSupplement,
+} from './supplement';
 import { parseRank } from './util';
 
 const ROOT = path.resolve(__dirname, '../..');
 const RAW_FILE = path.join(ROOT, 'data/raw/明朝帝王世系&官职品级.xlsx');
+const SUPPLEMENT_DIR = path.join(ROOT, 'data/supplement');
 const DATA_DIR = path.join(ROOT, 'src/data');
 const PUBLIC_DIR = path.join(ROOT, 'public');
 
@@ -49,7 +56,15 @@ function buildSearchIndex(
       type: 'emperor',
       title: `${e.templeName} ${e.name}`,
       subtitle: e.eras.map((era) => era.name).join('、'),
-      text: [e.posthumousName, e.reignText, e.branch === 'nanming' ? '南明' : '大明'].join(' '),
+      text: [
+        e.posthumousName,
+        e.reignText,
+        e.branch === 'nanming' ? '南明' : '大明',
+        e.mausoleum ?? '',
+        e.summary ?? '',
+      ]
+        .filter(Boolean)
+        .join(' '),
       url: `/emperors/${e.id}/`,
     });
   }
@@ -60,7 +75,7 @@ function buildSearchIndex(
       type: 'prince',
       title: p.name || p.title || p.orderLabel,
       subtitle: `${p.emperorName} 之${p.orderLabel}${p.title ? ` · ${p.title}` : ''}`,
-      text: [p.title, p.note].filter(Boolean).join(' '),
+      text: [p.title, p.note, p.fief, p.detail].filter(Boolean).join(' '),
       url: `/emperors/${p.emperorId}/`,
     });
   }
@@ -105,11 +120,20 @@ function main() {
   console.log('读取原始表：', path.relative(ROOT, RAW_FILE));
   const sheet = loadSheet(RAW_FILE);
 
-  const emperors = parseEmperors(sheet);
-  const princes = parsePrinces(sheet, emperors);
+  // 编者注：来自 data/supplement 的人工维护补充，缺失时静默跳过
+  const supplement = loadSupplement(SUPPLEMENT_DIR);
+  console.log(
+    '读取编者注：',
+    `帝王 ${supplement.present.emperors ? '有' : '无'} ·`,
+    `皇子 ${supplement.present.princes ? '有' : '无'} ·`,
+    `制度释义 ${supplement.present.institutions ? '有' : '无'}`,
+  );
+
+  const emperors = applyEmperorSupplement(parseEmperors(sheet), supplement.emperors);
+  const princes = applyPrinceSupplement(parsePrinces(sheet, emperors), supplement.princes);
   const relations = buildRelations(emperors, princes);
   const posts = parsePosts(sheet);
-  const institutions = parseInstitutions(sheet);
+  const institutions: Institutions = { ...parseInstitutions(sheet), notes: supplement.notes };
   const ranks = collectRanks(posts);
 
   fs.mkdirSync(DATA_DIR, { recursive: true });
@@ -149,6 +173,12 @@ function main() {
   console.log(`  散阶 文 ${institutions.civilGrades.length} / 武 ${institutions.militaryGrades.length}`);
   console.log(`  勋级 文 ${institutions.civilMerits.length} / 武 ${institutions.militaryMerits.length}`);
   console.log(`  字辈 ${institutions.poems.length} 房`);
+
+  const stats = coverage(emperors, princes, supplement);
+  console.log('\n编者注覆盖：');
+  console.log(`  帝王 ${stats.emperors.covered}/${stats.emperors.total}`);
+  console.log(`  皇子 ${stats.princes.covered}/${stats.princes.total}`);
+  console.log(`  制度释义 ${stats.notes} 条`);
 }
 
 main();

@@ -18,7 +18,18 @@
     "branch": "ming",
     "reignStart": 1368,
     "reignEnd": 1398,
-    "reignYears": 31
+    "reignYears": 31,
+    "birthYear": 1328,
+    "deathYear": 1398,
+    "mausoleum": "明孝陵",
+    "mausoleumNote": "位于南京紫金山南麓，与孝慈马皇后合葬",
+    "summary": "濠州钟离人，少时孤贫，曾入皇觉寺为僧。元末投郭子兴红巾军，逐步据有江南。洪武元年（1368）即位于应天，国号大明，同年北伐克大都，元室北遁。在位三十一年，废中书省与丞相、权分六部，设卫所、复科举、颁《大明律》，屡兴大狱整肃功臣，为明代制度奠定基本格局。洪武三十一年崩，年七十一。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷一至卷三·太祖本纪"
+      }
+    ]
   },
   {
     "id": "huidi",
@@ -39,7 +50,17 @@
     "branch": "ming",
     "reignStart": 1398,
     "reignEnd": 1402,
-    "reignYears": 4
+    "reignYears": 4,
+    "birthYear": 1377,
+    "mausoleum": "无陵",
+    "mausoleumNote": "靖难之役后下落不明，葬处无考",
+    "summary": "懿文太子朱标次子。洪武二十五年朱标薨，被立为皇太孙。洪武三十一年即位，改元建文，用齐泰、黄子澄之议削藩。建文元年燕王朱棣起兵，四年后南京陷落，宫中火起，帝不知所终，在位仅四年。其下落成为明史一大疑案，一说自焚而死，一说出亡为僧，后世屡有寻访传说，故无陵寝。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷四·恭闵帝本纪"
+      }
+    ]
   },
   {
     "id": "chengzu",
@@ -60,7 +81,22 @@
     "branch": "ming",
     "reignStart": 1403,
     "reignEnd": 1424,
-    "reignYears": 22
+    "reignYears": 22,
+    "birthYear": 1360,
+    "deathYear": 1424,
+    "mausoleum": "明长陵",
+    "mausoleumNote": "明十三陵首陵，位于天寿山主峰南麓，与仁孝徐皇后合葬",
+    "summary": "太祖第四子，初封燕王，镇守北平。建文元年以「清君侧」起兵，四年后入南京夺位，改元永乐，革除建文年号。在位二十二年迁都北京、营建紫禁城，设内阁与东厂，五征蒙古，遣郑和七下西洋，修《永乐大典》，武功文治俱盛；然靖难之役与诛戮建文旧臣亦为后世所议。永乐二十二年北征返师途中崩于榆木川，年六十五。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷五至卷七·成祖本纪"
+      },
+      {
+        "book": "故宫博物院·明十三陵",
+        "url": "https://www.dpm.org.cn/court/system/236402.html"
+      }
+    ]
   },
   {
     "id": "renzong",
@@ -81,7 +117,22 @@
     "branch": "ming",
     "reignStart": 1425,
     "reignEnd": 1425,
-    "reignYears": 1
+    "reignYears": 1,
+    "birthYear": 1378,
+    "deathYear": 1425,
+    "mausoleum": "明献陵",
+    "mausoleumNote": "明十三陵之一",
+    "summary": "成祖长子，永乐二年立为皇太子，多次受命监国。永乐二十二年即位，改元洪熙，在位仅十个月。罢郑和下西洋与各处采买，蠲免赋役，平反建文旧臣家属，调整永乐朝严苛之政，并定北京为京师。洪熙元年五月崩，年四十八。其与子宣宗之治并称「仁宣之治」，为明之极盛。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷八·仁宗本纪"
+      },
+      {
+        "book": "故宫博物院·明十三陵",
+        "url": "https://www.dpm.org.cn/court/system/236402.html"
+      }
+    ]
   },
   {
     "id": "xuanzong",
@@ -102,7 +153,22 @@
     "branch": "ming",
     "reignStart": 1426,
     "reignEnd": 1435,
-    "reignYears": 10
+    "reignYears": 10,
+    "birthYear": 1399,
+    "deathYear": 1435,
+    "mausoleum": "明景陵",
+    "mausoleumNote": "明十三陵之一",
+    "summary": "仁宗长子，洪熙元年即位，改元宣德。在位十年，亲征平定汉王朱高煦之叛，弃交趾、罢下西洋以纾民力，整顿吏治、宽减刑狱，内阁票拟与司礼监批红之制渐成，明代政治进入稳定期。与其父并称「仁宣之治」。宣德十年崩，年三十七。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷九·宣宗本纪"
+      },
+      {
+        "book": "故宫博物院·明十三陵",
+        "url": "https://www.dpm.org.cn/court/system/236402.html"
+      }
+    ]
   },
   {
     "id": "yingzong",
@@ -130,7 +196,22 @@
     "branch": "ming",
     "reignStart": 1436,
     "reignEnd": 1464,
-    "reignYears": 22
+    "reignYears": 22,
+    "birthYear": 1427,
+    "deathYear": 1464,
+    "mausoleum": "明裕陵",
+    "mausoleumNote": "明十三陵之一",
+    "summary": "宣宗长子，宣德十年即位，年号正统。初期三杨辅政，后宠信宦官王振。正统十四年亲征瓦剌，败于土木堡被俘，史称「土木之变」；其弟郕王即位，遥尊其为太上皇。次年还京，被幽禁南宫七年。景泰八年正月石亨等发动「夺门之变」，英宗复辟，改元天顺，杀于谦等。天顺八年崩，年三十八，两度在位共二十二年。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷十·英宗前纪、卷十二·英宗后纪"
+      },
+      {
+        "book": "故宫博物院·明十三陵",
+        "url": "https://www.dpm.org.cn/court/system/236402.html"
+      }
+    ]
   },
   {
     "id": "daizong",
@@ -151,7 +232,22 @@
     "branch": "ming",
     "reignStart": 1450,
     "reignEnd": 1457,
-    "reignYears": 8
+    "reignYears": 8,
+    "birthYear": 1428,
+    "deathYear": 1457,
+    "mausoleum": "明景泰陵",
+    "mausoleumNote": "位于北京海淀区金山口，初以亲王礼葬，成化年间复帝号后改建，是唯一不在十三陵的明代帝陵",
+    "summary": "宣宗次子，初封郕王。土木之变后受命监国，旋即帝位，改元景泰，遥尊英宗为太上皇。任用于谦，取得北京保卫战之胜，击退瓦剌。景泰三年废太子朱见深，改立己子朱见济，未几见济夭亡。景泰八年英宗复辟，被废为郕王，同年二月崩于西苑，年三十，以亲王礼葬金山。成化年间复其帝号。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷十一·景帝本纪"
+      },
+      {
+        "book": "北京日报·从郕王墓到景泰陵",
+        "url": "https://peking.bjd.com.cn/content/s6498f26de4b042ca9e8e4719.html"
+      }
+    ]
   },
   {
     "id": "xianzong",
@@ -172,7 +268,22 @@
     "branch": "ming",
     "reignStart": 1465,
     "reignEnd": 1487,
-    "reignYears": 23
+    "reignYears": 23,
+    "birthYear": 1447,
+    "deathYear": 1487,
+    "mausoleum": "明茂陵",
+    "mausoleumNote": "明十三陵之一",
+    "summary": "英宗长子，天顺八年即位，改元成化。初年为于谦平反、恢复景帝帝号，然宠信万贵妃与宦官汪直，设西厂，传奉官泛滥，朝政渐趋败坏。在位二十三年间安置荆襄流民，然边患与内耗并存。成化二十三年崩，年四十一。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷十三·宪宗一、卷十四·宪宗二"
+      },
+      {
+        "book": "故宫博物院·明十三陵",
+        "url": "https://www.dpm.org.cn/court/system/236402.html"
+      }
+    ]
   },
   {
     "id": "xiaozong",
@@ -193,7 +304,22 @@
     "branch": "ming",
     "reignStart": 1488,
     "reignEnd": 1505,
-    "reignYears": 18
+    "reignYears": 18,
+    "birthYear": 1470,
+    "deathYear": 1505,
+    "mausoleum": "明泰陵",
+    "mausoleumNote": "明十三陵之一",
+    "summary": "宪宗第三子，成化二十三年即位，改元弘治。在位十八年，勤于政事，罢传奉官、逐奸佞，任用刘健、李东阳、谢迁等贤臣，与民休息，史称「弘治中兴」。一生仅立张皇后、不设妃嫔，为明代帝王中所仅见。弘治十八年崩，年三十六。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷十五·孝宗本纪"
+      },
+      {
+        "book": "故宫博物院·明十三陵",
+        "url": "https://www.dpm.org.cn/court/system/236402.html"
+      }
+    ]
   },
   {
     "id": "wuzong",
@@ -214,7 +340,22 @@
     "branch": "ming",
     "reignStart": 1505,
     "reignEnd": 1521,
-    "reignYears": 16
+    "reignYears": 16,
+    "birthYear": 1491,
+    "deathYear": 1521,
+    "mausoleum": "明康陵",
+    "mausoleumNote": "明十三陵之一",
+    "summary": "孝宗长子，弘治十八年即位，改元正德。在位十六年，倦于朝政，建豹房、宠信江彬，自称「总督军务威武大将军总兵官」，屡次出巡。正德十四年宁王朱宸濠反，为王守仁所平。正德十六年南巡落水致病，还京后崩，年三十一，无子。其荒嬉与皇位空悬直接引出世宗以藩王入继。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷十六·武宗本纪"
+      },
+      {
+        "book": "故宫博物院·明十三陵",
+        "url": "https://www.dpm.org.cn/court/system/236402.html"
+      }
+    ]
   },
   {
     "id": "shizong",
@@ -235,7 +376,22 @@
     "branch": "ming",
     "reignStart": 1522,
     "reignEnd": 1566,
-    "reignYears": 45
+    "reignYears": 45,
+    "birthYear": 1507,
+    "deathYear": 1567,
+    "mausoleum": "明永陵",
+    "mausoleumNote": "明十三陵之一",
+    "summary": "宪宗之孙、兴献王朱祐杬之子。武宗无嗣，以藩王入继大统，正德十六年即位，改元嘉靖。即位之初力争尊生父为帝，引发「大礼议」，廷杖百官，皇权由此大张。中期崇道教、修斋醮，壬寅宫变后移居西苑长期不朝，严嵩当国二十余年。晚年海瑞上疏直斥其非，未加罪。嘉靖四十五年崩，年六十。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷十七·世宗一、卷十八·世宗二"
+      },
+      {
+        "book": "故宫博物院·明十三陵",
+        "url": "https://www.dpm.org.cn/court/system/236402.html"
+      }
+    ]
   },
   {
     "id": "muzong",
@@ -256,7 +412,22 @@
     "branch": "ming",
     "reignStart": 1567,
     "reignEnd": 1572,
-    "reignYears": 6
+    "reignYears": 6,
+    "birthYear": 1537,
+    "deathYear": 1572,
+    "mausoleum": "明昭陵",
+    "mausoleumNote": "明十三陵之一",
+    "summary": "世宗第三子，嘉靖四十五年即位，改元隆庆。在位六年，罢斋醮、释放因建言获罪诸臣，重用徐阶、高拱、张居正；与蒙古俺答封贡互市，史称「隆庆和议」，并部分开放海禁准贩东西二洋，即「隆庆开关」。隆庆六年崩，年三十六。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷十九·穆宗本纪"
+      },
+      {
+        "book": "故宫博物院·明十三陵",
+        "url": "https://www.dpm.org.cn/court/system/236402.html"
+      }
+    ]
   },
   {
     "id": "shenzong",
@@ -277,7 +448,22 @@
     "branch": "ming",
     "reignStart": 1573,
     "reignEnd": 1620,
-    "reignYears": 48
+    "reignYears": 48,
+    "birthYear": 1563,
+    "deathYear": 1620,
+    "mausoleum": "明定陵",
+    "mausoleumNote": "明十三陵之一，是唯一经考古发掘的明代帝陵",
+    "summary": "穆宗第三子，隆庆六年即位，改元万历，年方十岁。前十年由张居正柄政，推行考成法与一条鞭法，国库充盈，史称「万历中兴」。张居正卒后亲政，因国本之争与群臣对抗，自万历十四年起长期怠政、章奏留中。其间平定宁夏之乱、援朝抗倭，并称「万历三大征」。万历四十八年崩，年五十八，在位四十八年为明代最久。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷二十·神宗一、卷二十一·神宗二"
+      },
+      {
+        "book": "故宫博物院·明十三陵",
+        "url": "https://www.dpm.org.cn/court/system/236402.html"
+      }
+    ]
   },
   {
     "id": "guangzong",
@@ -297,7 +483,22 @@
     "posthumousName": "崇天契道 英睿恭纯 宪文景武 渊仁懿孝 贞皇帝",
     "branch": "ming",
     "reignStart": 1620,
-    "reignEnd": 1620
+    "reignEnd": 1620,
+    "birthYear": 1582,
+    "deathYear": 1620,
+    "mausoleum": "明庆陵",
+    "mausoleumNote": "明十三陵之一",
+    "summary": "神宗长子，国本之争中久居东宫。万历四十八年八月即位，改元泰昌，在位仅二十九天。即位后罢矿监税使、发帑金犒军，然旋即病重，服鸿胪寺丞李可灼所进红丸后暴卒，史称「红丸案」，与「梃击案」「移宫案」并称明末三大案。泰昌元年崩，年三十九。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷二十二·光宗本纪"
+      },
+      {
+        "book": "故宫博物院·明十三陵",
+        "url": "https://www.dpm.org.cn/court/system/236402.html"
+      }
+    ]
   },
   {
     "id": "xizong",
@@ -318,7 +519,22 @@
     "branch": "ming",
     "reignStart": 1621,
     "reignEnd": 1627,
-    "reignYears": 7
+    "reignYears": 7,
+    "birthYear": 1605,
+    "deathYear": 1627,
+    "mausoleum": "明德陵",
+    "mausoleumNote": "明十三陵之一",
+    "summary": "光宗长子，泰昌元年即位，改元天启。在位七年，好木工而不亲政，乳母客氏与宦官魏忠贤把持内外，东林党人杨涟、左光斗等遭迫害致死，各地竞相建生祠。辽东战事吃紧，赖袁崇焕等守宁远。天启七年崩，年二十三，无子。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷二十二·熹宗本纪"
+      },
+      {
+        "book": "故宫博物院·明十三陵",
+        "url": "https://www.dpm.org.cn/court/system/236402.html"
+      }
+    ]
   },
   {
     "id": "sizong",
@@ -339,7 +555,22 @@
     "branch": "ming",
     "reignStart": 1628,
     "reignEnd": 1644,
-    "reignYears": 17
+    "reignYears": 17,
+    "birthYear": 1611,
+    "deathYear": 1644,
+    "mausoleum": "明思陵",
+    "mausoleumNote": "明十三陵之一，原为田贵妃墓，入清后以礼改葬",
+    "summary": "光宗第五子，天启七年以信王入继大统，改元崇祯。即位即除魏忠贤，然性多疑、屡易阁臣，十七年间诛杀督师、巡抚多人。内有农民军与党争，外有后金压境，财政崩坏。崇祯十七年三月李自成破北京，帝自缢于煤山，年三十四，明亡。后由清廷以礼改葬。",
+    "sources": [
+      {
+        "book": "明史",
+        "chapter": "卷二十四·庄烈帝本纪"
+      },
+      {
+        "book": "故宫博物院·明十三陵",
+        "url": "https://www.dpm.org.cn/court/system/236402.html"
+      }
+    ]
   },
   {
     "id": "anzong",
@@ -360,7 +591,22 @@
     "branch": "nanming",
     "reignStart": 1644,
     "reignEnd": 1645,
-    "reignYears": 1
+    "reignYears": 1,
+    "birthYear": 1607,
+    "deathYear": 1646,
+    "mausoleum": "弘光陵",
+    "mausoleumNote": "葬河南孟津东山头村，记载见于后世整理，一说",
+    "summary": "神宗之孙、福恭王朱常洵长子，袭封福王。崇祯十七年五月由马士英等拥立于南京，改元弘光。在位一年间倚重马士英、阮大铖，党争复起，江北四镇跋扈，未及北伐而清军南下。弘光元年五月出奔芜湖被俘，押至北京，次年五月被杀，年四十。永历帝遥尊庙号安宗，遗骸由亲属收葬于河南孟津东山头村。",
+    "sources": [
+      {
+        "book": "南疆逸史",
+        "chapter": "弘光帝纪"
+      },
+      {
+        "book": "明史",
+        "chapter": "卷一百二十·诸王传"
+      }
+    ]
   },
   {
     "id": "shaozong",
@@ -381,7 +627,22 @@
     "branch": "nanming",
     "reignStart": 1645,
     "reignEnd": 1646,
-    "reignYears": 2
+    "reignYears": 2,
+    "birthYear": 1602,
+    "deathYear": 1646,
+    "mausoleum": "隆武陵",
+    "mausoleumNote": "在福建，具体葬处记载不一",
+    "summary": "太祖第二十三子唐定王朱桱九世孙，袭封唐王，曾因率兵勤王获罪被囚。弘光政权覆亡后于福州称帝，改元隆武。在位一年余，锐意恢复，然受制于郑芝龙，政令不出闽境。隆武二年清军入闽，帝走汀州被俘，一说自缢、一说被杀，年四十五。",
+    "sources": [
+      {
+        "book": "南疆逸史",
+        "chapter": "隆武帝纪"
+      },
+      {
+        "book": "明史",
+        "chapter": "卷一百二十·诸王传"
+      }
+    ]
   },
   {
     "id": "wenzong",
@@ -401,7 +662,22 @@
     "posthumousName": "贞天应道 昭崇德毅 宁文宏武 达仁闵孝 节皇帝",
     "branch": "nanming",
     "reignStart": 1646,
-    "reignEnd": 1646
+    "reignEnd": 1646,
+    "birthYear": 1605,
+    "deathYear": 1647,
+    "mausoleum": "绍武陵",
+    "mausoleumNote": "葬于广州",
+    "summary": "绍宗朱聿键之弟，隆武二年袭封唐王。隆武帝死后，由大学士苏观生等拥立于广州，改元绍武，与肇庆的永历政权互争正统。在位仅四十余日，同年腊月清军由李成栋引领突入广州，帝自缢而死，一说被执遇害，年四十二。",
+    "sources": [
+      {
+        "book": "南疆逸史",
+        "chapter": "绍武帝纪"
+      },
+      {
+        "book": "小腆纪年附考",
+        "chapter": "卷十三"
+      }
+    ]
   },
   {
     "id": "jingzong",
@@ -421,7 +697,16 @@
     "posthumousName": "忠天隆道 昭义钦成 靖文襄武 奋仁睿孝 和皇帝",
     "branch": "nanming",
     "reignStart": 1648,
-    "reignEnd": 1648
+    "reignEnd": 1648,
+    "mausoleum": "葬处无考",
+    "mausoleumNote": "以监国身份行事，未及营建陵寝",
+    "summary": "淮王朱翊钜嫡长子，袭封淮王。永历二年正月，郑成功等不知永历帝已即位，于南澳岛拥立其为监国，改元东武。次年永历帝使者抵达，朱常清主动取消监国名号以归政。其生卒与葬处均无确考，庙号「敬宗」出于后世追尊，史家对其是否算正式称帝亦有异议。",
+    "sources": [
+      {
+        "book": "续明纪事本末",
+        "chapter": "卷七"
+      }
+    ]
   },
   {
     "id": "zhaozong",
@@ -442,6 +727,21 @@
     "branch": "nanming",
     "reignStart": 1647,
     "reignEnd": 1662,
-    "reignYears": 16
+    "reignYears": 16,
+    "birthYear": 1623,
+    "deathYear": 1662,
+    "mausoleum": "永历陵",
+    "mausoleumNote": "位于贵州都匀高塘山东北麓，遗骸由都匀籍大臣秘密运回安葬，一说",
+    "summary": "神宗之孙、桂端王朱常瀛之子，隆武二年袭封桂王，同年在肇庆称监国、即帝位，改元永历。倚大西军余部孙可望、李定国等抗清，辗转粤桂黔滇十余年，为南明在位最久者。永历十五年入缅甸，次年被缅王交予吴三桂，同年四月被缢杀于昆明，年四十。",
+    "sources": [
+      {
+        "book": "小腆纪年附考",
+        "chapter": "卷二十"
+      },
+      {
+        "book": "南疆逸史",
+        "chapter": "永历帝纪"
+      }
+    ]
   }
 ]

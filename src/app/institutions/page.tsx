@@ -1,7 +1,29 @@
 import { ArrowRight } from 'lucide-react';
 import type { Metadata } from 'next';
+import SourceList from '@/components/ui/source-list';
 import { PageHeader, SectionTitle } from '@/components/ui/page-header';
 import { institutions } from '@/lib/data';
+import type { InstitutionNote } from '@/types/index';
+
+/** 该板块的术语释义（编者注） */
+function NoteBlock({ section }: { section: InstitutionNote['section'] }) {
+  const items = institutions.notes.filter((note) => note.section === section);
+  if (!items.length) return null;
+  return (
+    <div className="mt-4 space-y-3">
+      {items.map((note) => (
+        <div key={note.id} className="rounded-2xl border border-gold/30 bg-gold/[0.05] p-5">
+          <div className="flex items-baseline justify-between gap-3">
+            <h3 className="font-serif text-base font-semibold">{note.title}</h3>
+            <span className="shrink-0 text-[11px] text-ink-faint dark:text-white/40">编者注</span>
+          </div>
+          <p className="mt-2 text-sm leading-relaxed text-ink-soft dark:text-white/65">{note.body}</p>
+          <SourceList sources={note.sources} className="mt-3" />
+        </div>
+      ))}
+    </div>
+  );
+}
 
 export const metadata: Metadata = {
   title: '制度附录',
@@ -50,6 +72,8 @@ export default function InstitutionsPage() {
           ))}
         </div>
 
+        <NoteBlock section="jue" />
+
         {/* 文武散阶 */}
         <Anchor id="san" title="文武散阶" hint="散阶为荣誉品位：初授、升授、加授三级递进，与实际职事分离" />
         <div className="grid gap-4 lg:grid-cols-2">
@@ -90,6 +114,8 @@ export default function InstitutionsPage() {
           ))}
         </div>
 
+        <NoteBlock section="san" />
+
         {/* 勋级 */}
         <Anchor id="xun" title="勋级" hint="文勋十级、武勋十二级，与散阶同为荣誉序列，按品级授予" />
         <div className="grid gap-4 lg:grid-cols-2">
@@ -112,6 +138,8 @@ export default function InstitutionsPage() {
             </div>
           ))}
         </div>
+
+        <NoteBlock section="xun" />
 
         {/* 科举 */}
         <Anchor id="keju" title="科举取士" hint="童试 → 乡试 → 会试 → 殿试：从童生到进士的四级阶梯" />
@@ -172,6 +200,8 @@ export default function InstitutionsPage() {
           ))}
         </div>
 
+        <NoteBlock section="keju" />
+
         {/* 皇室字辈 */}
         <Anchor id="zibei" title="皇室字辈" hint="太祖为各王房拟定二十字，依辈分取名，用以别昭穆、序长幼" />
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
@@ -182,6 +212,8 @@ export default function InstitutionsPage() {
             </div>
           ))}
         </div>
+
+        <NoteBlock section="zibei" />
       </div>
     </div>
   );

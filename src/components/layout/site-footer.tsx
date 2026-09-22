@@ -40,7 +40,7 @@ export default function SiteFooter() {
         <div className="gold-rule my-6" />
         <div className="flex flex-wrap items-center justify-between gap-3">
           <p className="text-xs text-ink-faint dark:text-white/40">
-            数据来源：工作区 data/raw 原始表格 · 本站为静态站点，内容仅供学习与研究参考
+            {/* 数据来源：工作区 data/raw 原始表格 · 本站为静态站点，内容仅供学习与研究参考 */}
           </p>
           <AuthorDialog />
         </div>

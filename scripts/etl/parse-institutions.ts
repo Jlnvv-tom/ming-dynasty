@@ -126,7 +126,8 @@ function parseExams(sheet: SheetReader): ExamStage[] {
   return stages;
 }
 
-export function parseInstitutions(sheet: SheetReader): Institutions {
+/** 解析制度附录的结构部分；`notes` 由编者注在 build 阶段合并 */
+export function parseInstitutions(sheet: SheetReader): Omit<Institutions, 'notes'> {
   // 宗室封爵
   const titles = [
     { label: '皇子', chain: splitChain(sheet.get('H', 12)) },
