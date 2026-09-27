@@ -1,10 +1,10 @@
-name: Build & Deploy
+name: Build & Deploy to GitHub Pages
 
 on:
   push:
-    branches: [main]
+    branches: [master, main]
   pull_request:
-    branches: [main]
+    branches: [master, main]
   workflow_dispatch:
 
 permissions:
@@ -20,13 +20,15 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: 检出代码
+        uses: actions/checkout@v4
 
-      - uses: pnpm/action-setup@v4
-        with:
-          version: 9
+      # pnpm 版本读取 package.json 的 packageManager 字段，与本地保持一致
+      - name: 准备 pnpm
+        uses: pnpm/action-setup@v4
 
-      - uses: actions/setup-node@v4
+      - name: 准备 Node
+        uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: pnpm
@@ -40,25 +42,33 @@ jobs:
       - name: 代码检查
         run: pnpm lint
 
+      - name: 从源表重新生成数据
+        run: pnpm data:import
+
       - name: 数据校验
         run: pnpm data:check
 
       - name: 静态构建
         run: pnpm build
 
+      - name: 配置 Pages
+        if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main'
+        uses: actions/configure-pages@v5
+
       - name: 上传构建产物
-        if: github.ref == 'refs/heads/main'
+        if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main'
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./out
 
   deploy:
-    if: github.ref == 'refs/heads/main'
+    if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main'
     needs: build
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - id: deployment
+      - name: 部署到 GitHub Pages
+        id: deployment
         uses: actions/deploy-pages@v4

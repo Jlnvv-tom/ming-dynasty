@@ -30,7 +30,8 @@ export default function SearchView() {
 
   useEffect(() => {
     let alive = true;
-    fetch('/search-index.json')
+    // 部署可能带前缀（GitHub Pages 项目站），此处需要拼接 basePath
+    fetch(`${process.env.NEXT_PUBLIC_BASE_PATH ?? ''}/search-index.json`)
       .then((res) => res.json())
       .then((data: SearchDoc[]) => {
         if (alive) setDocs(data);

@@ -116,9 +116,45 @@ data/supplement/*.json┘                            │
 
 ## 部署
 
-`pnpm build` 产出 `out/`，可直接上传至任意静态托管。仓库已附带 GitHub Actions 工作流（`.github/workflows/deploy.yml`），推送到 `main` 即执行校验、构建并发布到 GitHub Pages。
+`pnpm build` 产出 `out/`，**无任何服务端依赖**，可直接上传至任意静态托管（对象存储、Nginx、Vercel、GitHub Pages 均可）。
 
-> 若部署到 GitHub Pages 的项目站点（非根路径），需在 `next.config.ts` 中设置 `basePath: '/<仓库名>'` 与 `assetPrefix`。
+### GitHub Pages（仓库已配置好）
+
+推送到 `master`（或 `main`）后，`.github/workflows/deploy.yml` 会自动执行：
+
+```
+安装依赖 → typecheck → lint → data:import（从源表重建数据）→ data:check → build → 发布 Pages
+```
+
+站点地址：**https://jlnvv-tom.github.io/ming-dynasty/**
+
+**一次性手动设置**（只需做一次）：仓库 **Settings → Pages → Source** 选择 **GitHub Actions**。
+
+### 部署前缀（重要）
+
+GitHub Pages 的**项目站**带 `/<仓库名>` 路径，因此 `next.config.ts` 中设置了：
+
+```ts
+const BASE_PATH = process.env.BASE_PATH ?? '/ming-dynasty';
+// → basePath / assetPrefix / NEXT_PUBLIC_BASE_PATH 三者同步
+```
+
+它影响四类路径，缺一都会白屏或 404：
+
+| 位置 | 处理方式 |
+| --- | --- |
+| `/_next/*` 资源、`<Link>` 站内链接 | Next 依据 `basePath` 自动加前缀 |
+| `public/*` 静态资源（如二维码图片） | `next/image` 在 `unoptimized` 模式下**不加前缀**，由 `src/lib/site.ts` 的 `ASSET_BASE` 手动拼接 |
+| 客户端 `fetch` 的 `search-index.json` | 检索页用 `NEXT_PUBLIC_BASE_PATH` 拼接 |
+| `_next` 等下划线目录 | 由 `public/.nojekyll` 阻止 Jekyll 过滤 |
+
+**改为根路径部署**（绑自定义域名，或用 `<user>.github.io` 用户站）时：
+
+```bash
+BASE_PATH= pnpm build
+```
+
+前缀随即为空，上述四类路径会自动回到根路径，无需改代码。
 
 ## 相关文档
 
