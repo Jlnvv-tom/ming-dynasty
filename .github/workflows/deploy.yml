@@ -19,6 +19,12 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      # pnpm 11 在运行任意脚本前会内部再执行一次 pnpm install 做依赖校验，
+      # 该嵌套调用不继承命令行参数，会再次触发 ERR_PNPM_IGNORED_BUILDS 导致
+      # typecheck / lint / build 等步骤全部失败。关闭运行前的依赖校验即可根除，
+      # 同时也省去每个步骤重复检查的开销。
+      npm_config_verify_deps_before_run: 'false'
     steps:
       - name: 检出代码
         uses: actions/checkout@v4

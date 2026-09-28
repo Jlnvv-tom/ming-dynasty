@@ -126,10 +126,21 @@ data/supplement/*.json┘                            │
 安装依赖 → 构建原生依赖 → typecheck → lint → data:import（从源表重建数据）→ data:check → build → 发布 Pages
 ```
 
-> **pnpm 构建脚本说明**：pnpm 11 在 CI 下默认开启 `strict-dep-builds`，会因 `esbuild`、`unrs-resolver`
-> 的构建脚本未获批准而中断安装。该策略**不信任项目内的 `.npmrc` / `pnpm-workspace.yaml`**
-> （实测均被忽略），因此工作流中使用命令行参数 `--config.strict-dep-builds=false` 放宽，
-> 再用 `pnpm rebuild` 显式构建这两个包。若你本地也遇到同类报错，用同一参数即可。
+> **pnpm 构建脚本说明**（踩过两轮，记录备查）：pnpm 11 在 CI 下默认开启 `strict-dep-builds`，
+> 依赖构建脚本未获批准即以 `ERR_PNPM_IGNORED_BUILDS` 中断（本项目为 `esbuild`、`unrs-resolver`）。
+>
+> 实测结果：
+> - 该策略**不信任项目内配置**——`package.json` 的 `"pnpm"` 字段已不被读取，
+>   `pnpm-workspace.yaml` 的 `onlyBuiltDependencies` 与项目 `.npmrc` 均被忽略；
+> - 仅**命令行参数**生效：`pnpm install --config.strict-dep-builds=false`；
+> - 但 pnpm 11 运行任意脚本前会**内部再跑一次 `pnpm install`** 做依赖校验，该嵌套调用
+>   不继承命令行参数，于是 `typecheck`、`lint`、`build` 会再次报同一个错。
+>
+> 因此工作流做了两件事：安装时带 `--config.strict-dep-builds=false` 并用 `pnpm rebuild`
+> 显式构建这两个包；同时在 job 级设置 `npm_config_verify_deps_before_run=false`
+> （环境变量会被嵌套调用继承），关闭运行前的依赖校验。
+>
+> 本地若遇到同类报错，用同一参数即可：`pnpm install --config.strict-dep-builds=false`。
 
 站点地址：**https://jlnvv-tom.github.io/ming-dynasty/**
 
