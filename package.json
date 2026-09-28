@@ -4,6 +4,9 @@
   "private": true,
   "description": "明朝帝王世系 & 官职品级知识站",
   "packageManager": "pnpm@11.21.0",
+  "engines": {
+    "node": ">=22.13"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",

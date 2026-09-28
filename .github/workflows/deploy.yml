@@ -27,10 +27,12 @@ jobs:
       - name: 准备 pnpm
         uses: pnpm/action-setup@v4
 
+      # Node 22 为 pnpm 11 的硬性要求（其内部依赖 node:sqlite，Node 20 会直接报
+      # ERR_UNKNOWN_BUILTIN_MODULE），也是 Next 15 支持的 LTS 版本
       - name: 准备 Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
           cache: pnpm
 
       - name: 安装依赖

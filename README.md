@@ -42,7 +42,7 @@ pnpm data:import  # 抽取 data/raw 并合并 data/supplement → src/data/*.jso
 pnpm data:check   # 数据一致性校验（悬空引用 / 品级 / 在位区间 / 序位 / 编者注完整性）
 ```
 
-环境要求：Node ≥ 18.18（推荐 20+）、pnpm 9+。
+环境要求：**Node ≥ 22.13**、pnpm 11（版本由 `packageManager` 字段锁定，pnpm 11 依赖 Node 22 才有的 `node:sqlite`，Node 20 及以下无法运行）。
 
 ## 目录结构
 
