@@ -1,7 +1,0 @@
-# pnpm 10.6 起，配置项从 package.json 的 "pnpm" 字段迁移至此文件。
-# esbuild 是 tsx 运行 ETL 脚本所必需（data:import / data:check 依赖它），
-# unrs-resolver 是 eslint 9 的可选原生依赖；两者若不批准构建脚本，
-# CI 环境下 pnpm install 会以 ERR_PNPM_IGNORED_BUILDS 直接失败。
-onlyBuiltDependencies:
-  - esbuild
-  - unrs-resolver

@@ -123,8 +123,13 @@ data/supplement/*.json┘                            │
 推送到 `master`（或 `main`）后，`.github/workflows/deploy.yml` 会自动执行：
 
 ```
-安装依赖 → typecheck → lint → data:import（从源表重建数据）→ data:check → build → 发布 Pages
+安装依赖 → 构建原生依赖 → typecheck → lint → data:import（从源表重建数据）→ data:check → build → 发布 Pages
 ```
+
+> **pnpm 构建脚本说明**：pnpm 11 在 CI 下默认开启 `strict-dep-builds`，会因 `esbuild`、`unrs-resolver`
+> 的构建脚本未获批准而中断安装。该策略**不信任项目内的 `.npmrc` / `pnpm-workspace.yaml`**
+> （实测均被忽略），因此工作流中使用命令行参数 `--config.strict-dep-builds=false` 放宽，
+> 再用 `pnpm rebuild` 显式构建这两个包。若你本地也遇到同类报错，用同一参数即可。
 
 站点地址：**https://jlnvv-tom.github.io/ming-dynasty/**
 

@@ -36,7 +36,14 @@ jobs:
           cache: pnpm
 
       - name: 安装依赖
-        run: pnpm install --frozen-lockfile
+        # pnpm 11 在 CI 下默认开启 strict-dep-builds，若依赖的构建脚本未获批准
+        # 会直接失败（ERR_PNPM_IGNORED_BUILDS: esbuild、unrs-resolver）。
+        # 实测该策略不信任项目内的 .npmrc / pnpm-workspace.yaml，只能由命令行参数放宽。
+        run: pnpm install --frozen-lockfile --config.strict-dep-builds=false
+
+      - name: 构建原生依赖
+        # 显式重建，确保 tsx（ETL 脚本）与 eslint 所需的二进制真正就绪
+        run: pnpm rebuild esbuild unrs-resolver
 
       - name: 类型检查
         run: pnpm typecheck
