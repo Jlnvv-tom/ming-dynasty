@@ -123,26 +123,25 @@ data/supplement/*.json┘                            │
 推送到 `master`（或 `main`）后，`.github/workflows/deploy.yml` 会自动执行：
 
 ```
-安装依赖 → 构建原生依赖 → typecheck → lint → data:import（从源表重建数据）→ data:check → build → 发布 Pages
+安装依赖 → typecheck → lint → data:import（从源表重建数据）→ data:check → build → 发布 Pages
 ```
 
-> **pnpm 构建脚本说明**（踩过两轮，记录备查）：pnpm 11 在 CI 下默认开启 `strict-dep-builds`，
-> 依赖构建脚本未获批准即以 `ERR_PNPM_IGNORED_BUILDS` 中断（本项目为 `esbuild`、`unrs-resolver`）。
+> **pnpm 构建脚本说明**（踩过数轮，结论以 pnpm 11.21 源码为准）：
+> pnpm 11 默认开启 `strict-dep-builds`，依赖构建脚本未获批准即以
+> `ERR_PNPM_IGNORED_BUILDS` 中断（本项目为 `esbuild`、`unrs-resolver`）。
 >
-> 实测结果：
-> - 该策略**不信任项目内配置**——`package.json` 的 `"pnpm"` 字段已不被读取，
->   `pnpm-workspace.yaml` 的 `onlyBuiltDependencies` 与项目 `.npmrc` 均被忽略；
-> - 仅**命令行参数**生效：`pnpm install --config.strict-dep-builds=false`；
-> - 但 pnpm 11 运行任意脚本前会**内部再跑一次 `pnpm install`** 做依赖校验，该嵌套调用
->   不继承命令行参数，于是 `typecheck`、`lint`、`build` 会再次报同一个错。
+> pnpm 11 的批准机制已由 `onlyBuiltDependencies` **改名并改为映射**：
+> 在 `pnpm-workspace.yaml` 中写
 >
-> 因此工作流的对策是**不使用 `pnpm <script>`**，改由 `pnpm exec` 直接执行
-> （`tsc --noEmit`、`next lint`、`tsx …`、`next build`），从结构上绕开前置校验；
-> 另在 job 级设置 `npm_config_verify_deps_before_run=false` 与
-> `npm_config_strict_dep_builds=false` 作为环境变量兜底，安装时同样显式传参。
+> ```yaml
+> allowBuilds:
+>   esbuild: true
+>   unrs-resolver: true
+> ```
 >
-> 本地若遇到同类报错，用同一参数即可：`pnpm install --config.strict-dep-builds=false`；
-> 或直接用 `pnpm exec <命令>` 代替 `pnpm <脚本名>`。
+> 旧字段在 pnpm 11 下**完全无效**——这也是此前多次修复失败的原因。
+> 依据：pnpm 源码 `handleIgnoredBuilds` → `writeIgnoredBuildsToAllowBuilds`
+> 会把待批准项写入 `pnpm-workspace.yaml` 的 `allowBuilds`。
 
 站点地址：**https://jlnvv-tom.github.io/ming-dynasty/**
 

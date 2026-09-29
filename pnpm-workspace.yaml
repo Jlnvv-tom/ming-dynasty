@@ -1,0 +1,8 @@
+# pnpm 11 起，依赖构建脚本的批准机制由 onlyBuiltDependencies 改为 allowBuilds
+# （包名 → true/false，写在 pnpm-workspace.yaml 中）。
+# esbuild 是 tsx 运行 ETL 脚本（data:import / data:check）所必需，
+# unrs-resolver 是 eslint 9 的可选原生依赖。
+# 不批准时，CI 下 pnpm install 会以 ERR_PNPM_IGNORED_BUILDS 直接失败。
+allowBuilds:
+  esbuild: true
+  unrs-resolver: true
