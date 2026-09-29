@@ -136,11 +136,13 @@ data/supplement/*.json┘                            │
 > - 但 pnpm 11 运行任意脚本前会**内部再跑一次 `pnpm install`** 做依赖校验，该嵌套调用
 >   不继承命令行参数，于是 `typecheck`、`lint`、`build` 会再次报同一个错。
 >
-> 因此工作流做了两件事：安装时带 `--config.strict-dep-builds=false` 并用 `pnpm rebuild`
-> 显式构建这两个包；同时在 job 级设置 `npm_config_verify_deps_before_run=false`
-> （环境变量会被嵌套调用继承），关闭运行前的依赖校验。
+> 因此工作流的对策是**不使用 `pnpm <script>`**，改由 `pnpm exec` 直接执行
+> （`tsc --noEmit`、`next lint`、`tsx …`、`next build`），从结构上绕开前置校验；
+> 另在 job 级设置 `npm_config_verify_deps_before_run=false` 与
+> `npm_config_strict_dep_builds=false` 作为环境变量兜底，安装时同样显式传参。
 >
-> 本地若遇到同类报错，用同一参数即可：`pnpm install --config.strict-dep-builds=false`。
+> 本地若遇到同类报错，用同一参数即可：`pnpm install --config.strict-dep-builds=false`；
+> 或直接用 `pnpm exec <命令>` 代替 `pnpm <脚本名>`。
 
 站点地址：**https://jlnvv-tom.github.io/ming-dynasty/**
 

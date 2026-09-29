@@ -20,11 +20,14 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      # pnpm 11 在运行任意脚本前会内部再执行一次 pnpm install 做依赖校验，
-      # 该嵌套调用不继承命令行参数，会再次触发 ERR_PNPM_IGNORED_BUILDS 导致
-      # typecheck / lint / build 等步骤全部失败。关闭运行前的依赖校验即可根除，
-      # 同时也省去每个步骤重复检查的开销。
+      # pnpm 11 的构建策略（strict-dep-builds）与运行前依赖校验
+      # （verify-deps-before-run）在 CI 下默认开启，会因 esbuild、
+      # unrs-resolver 的构建脚本未获批准而失败。
+      # 这两项设置不信任项目内配置文件，只能由命令行参数/环境变量放宽；
+      # 本工作流同时用环境变量兜底，并改用 pnpm exec 直接执行，
+      # 不经过 pnpm 的脚本前置检查（runDepsStatusCheck），从根本上规避。
       npm_config_verify_deps_before_run: 'false'
+      npm_config_strict_dep_builds: 'false'
     steps:
       - name: 检出代码
         uses: actions/checkout@v4
@@ -42,29 +45,26 @@ jobs:
           cache: pnpm
 
       - name: 安装依赖
-        # pnpm 11 在 CI 下默认开启 strict-dep-builds，若依赖的构建脚本未获批准
-        # 会直接失败（ERR_PNPM_IGNORED_BUILDS: esbuild、unrs-resolver）。
-        # 实测该策略不信任项目内的 .npmrc / pnpm-workspace.yaml，只能由命令行参数放宽。
-        run: pnpm install --frozen-lockfile --config.strict-dep-builds=false
+        run: pnpm install --frozen-lockfile --config.strict-dep-builds=false --config.verify-deps-before-run=false
 
       - name: 构建原生依赖
-        # 显式重建，确保 tsx（ETL 脚本）与 eslint 所需的二进制真正就绪
         run: pnpm rebuild esbuild unrs-resolver
 
+      # 以下均用 pnpm exec 直接执行，不经过 pnpm 的脚本前置依赖校验
       - name: 类型检查
-        run: pnpm typecheck
+        run: pnpm exec tsc --noEmit
 
       - name: 代码检查
-        run: pnpm lint
+        run: pnpm exec next lint
 
       - name: 从源表重新生成数据
-        run: pnpm data:import
+        run: pnpm exec tsx scripts/etl/build.ts
 
       - name: 数据校验
-        run: pnpm data:check
+        run: pnpm exec tsx scripts/check-data.ts
 
       - name: 静态构建
-        run: pnpm build
+        run: pnpm exec next build
 
       - name: 配置 Pages
         if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main'
